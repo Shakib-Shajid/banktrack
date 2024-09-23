@@ -3,8 +3,8 @@ import { CiCalendar } from "react-icons/ci";
 const Banner = () => {
     return (
         <div>
-            <div className="hero h-[600px] md:min-h-screen bg-[#FDFAF5]">
-                <div className="hero-content text-center">
+            <div className="hero h-[900px] md:h-[800px] bg-[#FDFAF5]">
+                <div className="hero-content text-center -mt-16 md:-mt-36">
                     <div className="max-w-3xl">
                         <h1 className="text-4xl md:text-6xl font-bold">El software más fácil para controlar tu tesorería</h1>
                         <p className="py-6 text-2xl max-w-2xl mx-auto">

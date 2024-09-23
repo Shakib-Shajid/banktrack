@@ -40,7 +40,7 @@ const Navbar = () => {
 
     return (
         <div className='max-w-7xl mx-auto'>
-            <div className="navbar mx-auto max-w-7xl mt-3 fixed">
+            <div className="navbar mt-3 z-50 fixed max-w-7xl mx-auto">
                 <div className="navbar-start">
                     <Image src="/logo.png" width="100" height="100" alt="" className='h-7 w-7' />
                     <Link href="/" className="ml-2 text-base md:text-xl font-bold">Banktrack</Link>
@@ -60,7 +60,7 @@ const Navbar = () => {
                 </div> */}
                 <div className="navbar-end">
                     <Link className="text-[14px] rounded-full px-4 mr-3 hidden md:grid" href="">Entrar</Link>
-                    <Link className="text-[14px] btn bg-black text-white rounded-full px-4" href="">Empieza gratis</Link>
+                    <Link className="text-[14px] btn bg-black text-white rounded-full px-4 border-none" href="">Empieza gratis</Link>
                     <div className="dropdown">
                         <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
                             <svg
