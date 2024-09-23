@@ -64,7 +64,7 @@ const Navbar = () => {
     );
 
     return (
-        <div className="max-w-max">
+        <div className="max-w-7xl mx-auto">
             <div className={`max-w-7xl mx-auto navbar mt-3 fixed z-50 ${isScrolled ? 'bg-white shadow-md' : 'bg-transparent'}`}>
                 <div className="navbar-start">
                     <Image src="/logo.png" width="100" height="100" alt="Banktrack logo" className="h-7 w-7" />
