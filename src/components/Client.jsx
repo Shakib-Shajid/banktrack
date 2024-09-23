@@ -18,7 +18,7 @@ const Client = () => {
                 <Image src="/icon_10.png" width="250" height="250" alt="" className='h-20 w-36' />
             </div>
             <div>
-                <div className="marquee-container overflow-hidden whitespace-nowrap gap-5 my-5" >
+                <div className="marquee-container overflow-hidden whitespace-nowrap gap-5 my-6" >
                     <div className="marquee inline-block animate-marquee">
                         <Image src="/icon_1.png" width="250" height="250" alt="" className="h-12 w-28 md:h-20 md:w-36 inline-block mr-4" />
                         <Image src="/icon_2.png" width="250" height="250" alt="" className="h-12 w-28 md:h-20 md:w-36 inline-block mr-4" />
