@@ -4,6 +4,7 @@ import Collection from "@/components/Collection";
 import Finance from "@/components/Finance";
 import Forecast from "@/components/Forecast";
 import Video from "@/components/Video";
+import Who from "@/components/Who";
 import Image from "next/image";
 
 export default function Home() {
@@ -15,6 +16,7 @@ export default function Home() {
       <Finance />
       <Collection />
       <Forecast />
+      <Who />
     </>
   );
 }
