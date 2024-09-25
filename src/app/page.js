@@ -1,11 +1,12 @@
 import Banner from "@/components/Banner";
 import Client from "@/components/Client";
+import ClientResponse from "@/components/ClientResponse";
 import Collection from "@/components/Collection";
+import Consultant from "@/components/Consultant";
 import Finance from "@/components/Finance";
 import Forecast from "@/components/Forecast";
 import Video from "@/components/Video";
 import Who from "@/components/Who";
-import Image from "next/image";
 
 export default function Home() {
   return (
@@ -17,6 +18,8 @@ export default function Home() {
       <Collection />
       <Forecast />
       <Who />
+      <Consultant />
+      <ClientResponse />
     </>
   );
 }
