@@ -8,7 +8,7 @@ const Collection = () => {
             <div className='w-[80%] lg:ml-40 space-y-3'>
                 <div className='mt-10'>
                     <h3 className='text-xl font-bold text-[#4021C8] uppercase'>Cobros y Pagos</h3>
-                    <p className='text-4xl font-bold leading-tight'>Olvídate del caos de <br /> facturas y <br /> proveedores</p>
+                    <p className='text-4xl font-bold leading-tight'>Olvídate del caos de <br className='hidden md:grid'/> facturas y <br className='hidden md:grid'/> proveedores</p>
                 </div>
                 <div className='text-[#828080] space-y-1 w-full'>
 
