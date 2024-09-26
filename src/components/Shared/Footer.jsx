@@ -56,7 +56,7 @@ const Footer = () => {
                 </nav>
             </footer>
             
-            <footer className="footer px-5 md:px-10 py-4 w-[90%] mx-auto gap-4 text-[#888585] flex flex-col text-start lg:grid">
+            <footer className="footer px-5 md:px-10 py-4 w-[90%] mx-auto gap-4 text-[#888585] flex flex-col text-start lg:grid pt-10 pb-20">
                 <div className='lg:flex gap-2 items-baseline'>
                     <form>
                         <select className='border-2 text-black'>
