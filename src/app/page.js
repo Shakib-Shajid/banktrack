@@ -3,6 +3,7 @@ import Client from "@/components/Client";
 import ClientResponse from "@/components/ClientResponse";
 import Collection from "@/components/Collection";
 import Consultant from "@/components/Consultant";
+import Data from "@/components/Data";
 import Finance from "@/components/Finance";
 import Forecast from "@/components/Forecast";
 import Video from "@/components/Video";
@@ -20,6 +21,7 @@ export default function Home() {
       <Who />
       <Consultant />
       <ClientResponse />
+      <Data />
     </>
   );
 }
