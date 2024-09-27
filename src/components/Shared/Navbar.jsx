@@ -28,9 +28,87 @@ const Navbar = () => {
                         Funcionalidades
                         <IoIosArrowDown className="inline-block ml-2 group-hover:rotate-180 transform-translate duration-200 ease-in" />
                     </div>
-                    <ul tabIndex={0} className="dropdown-content menu bg-base-100 rounded-box z-[1] mt-32 w-52 p-2 shadow">
-                        <li><a>Item 1</a></li>
-                        <li><a>Item 2</a></li>
+                    <ul tabIndex={0} className="dropdown-content menu bg-base-100 rounded-box z-[1] mt-80 w-[700%] p-2 shadow">
+                        {/* <li><a>Item 1</a></li>
+                        <li><a>Item 2</a></li> */}
+                        {/* ............................................. */}
+                        <div className='flex gap-3'>
+                            <div>
+                                <li>
+                                    <div className='text-sm flex gap-4'>
+                                        <Image src="/who_1_2.png" width="70" height="70" alt="" />
+                                        <div>
+                                            <h2>Dashboards</h2>
+                                            <p>La vista de datos bancarios que siempre quisiste.</p>
+                                        </div>
+                                    </div>
+                                </li>
+
+
+                                <li>
+                                    <div className='text-sm flex gap-4'>
+                                        <Image src="/who_1_3.png" width="70" height="70" alt="" />
+                                        <div>
+                                            <h2>Buscador</h2>
+                                            <p>El motor de busqueda para tus cuentas bancarias.</p>
+                                        </div>
+                                    </div>
+                                </li>
+
+
+                                <li>
+                                    <div className='text-sm flex gap-4'>
+                                        <Image src="/who_1_7.png" width="70" height="70" alt="" />
+                                        <div>
+                                            <h2>Alertas</h2>
+                                            <p>Entérate cuando pasan cosas raras.</p>
+                                        </div>
+                                    </div>
+                                </li>
+                            </div>
+                            <div>
+                                <li>
+                                    <div className='text-sm flex gap-4'>
+                                        <Image src="/who_1_2.png" width="70" height="70" alt="" />
+                                        <div>
+                                            <h2>Previsiones</h2>
+                                            <p>El futuro de tu tesorería bajo control.</p>
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <li>
+                                    <div className='text-sm flex gap-4'>
+                                        <Image src="/who_1_2.png" width="70" height="70" alt="" />
+                                        <div>
+                                            <h2>Informes</h2>
+                                            <p>Tu tesorería siempre contigo.</p>
+                                        </div>
+                                    </div>
+                                </li>
+                            </div>
+                            <div>
+                                <li>
+                                    <div className='text-sm flex gap-4'>
+                                        <Image src="/who_1_2.png" width="70" height="70" alt="" />
+                                        <div>
+                                            <h2>Cobros y pagos</h2>
+                                            <p>Conciliación automática de facturas.</p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div className='text-sm flex gap-4'>
+                                        <Image src="/who_1_2.png" width="70" height="70" alt="" />
+                                        <div>
+                                            <h2>Reglas automáticas</h2>
+                                            <p>Categorización gastos e ingresos "nivel Dios".</p>
+                                        </div>
+                                    </div>
+                                </li>
+                            </div>
+                        </div>
+                        {/* ............................................. */}
                     </ul>
                 </div>
             </li>
@@ -54,9 +132,33 @@ const Navbar = () => {
                         Funcionalidades
                         <IoIosArrowDown className="inline-block ml-2 group-hover:rotate-180 transform-translate duration-200 ease-in" />
                     </div>
-                    <ul tabIndex={0} className="dropdown-content menu bg-base-100 rounded-box z-[1] mt-32 w-52 p-2 shadow">
-                        <li><a>Item 1</a></li>
-                        <li><a>Item 2</a></li>
+                    <ul tabIndex={0} className="dropdown-content menu bg-base-100 rounded-box z-[1] mt-40 w-[400%] p-2 shadow">
+                        {/* <li><a>Item 1</a></li>
+                        <li><a>Item 2</a></li> */}
+
+                        {/* ............................................................ */}
+                        <div className='flex gap-5'>
+                            <li>
+                                <div className='text-sm flex gap-4'>
+                                    <Image src="/video.png" width="70" height="70" alt="" />
+                                    <div>
+                                        <h2>Vídeo Academy</h2>
+                                        <p>Aprende a usar Banktrack <br /> con vídeos rápidos.</p>
+                                    </div>
+                                </div>
+                            </li>
+
+                            <li>
+                                <div className='text-sm flex gap-4'>
+                                    <Image src="/question.png" width="70" height="70" alt="" />
+                                    <div>
+                                        <h2>Centro de Ayuda</h2>
+                                        <p>Todo lo que necesitas saber <br /> sobre cómo usar Banktrack.</p>
+                                    </div>
+                                </div>
+                            </li>
+                        </div>
+                        {/* ............................................................ */}
                     </ul>
                 </div>
             </li>
@@ -76,6 +178,7 @@ const Navbar = () => {
                         </ul>
                     </div>
                 </div>
+
                 <div className="navbar-end">
                     <Link className="text-[14px] rounded-full px-4 mr-3 hidden md:grid" href="">Entrar</Link>
                     <Link className="text-[14px] btn bg-black text-white rounded-full px-4 border-none" href="">Empieza gratis</Link>
