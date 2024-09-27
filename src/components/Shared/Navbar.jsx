@@ -28,7 +28,7 @@ const Navbar = () => {
                         Funcionalidades
                         <IoIosArrowDown className="inline-block ml-2 group-hover:rotate-180 transform-translate duration-200 ease-in" />
                     </div>
-                    <ul tabIndex={0} className="dropdown-content menu bg-base-100 rounded-box z-[1] mt-80 w-[700%] p-2 shadow">
+                    <ul tabIndex={0} className="dropdown-content menu bg-base-100 rounded-box z-[1] mt-96 py-10 w-[700%] p-2 shadow">
                         {/* <li><a>Item 1</a></li>
                         <li><a>Item 2</a></li> */}
                         {/* ............................................. */}
@@ -39,7 +39,7 @@ const Navbar = () => {
                                         <Image src="/who_1_2.png" width="70" height="70" alt="" />
                                         <div>
                                             <h2>Dashboards</h2>
-                                            <p>La vista de datos bancarios que siempre quisiste.</p>
+                                            <p className='text-[#787474]'>La vista de datos bancarios que siempre quisiste.</p>
                                         </div>
                                     </div>
                                 </li>
@@ -50,7 +50,7 @@ const Navbar = () => {
                                         <Image src="/who_1_3.png" width="70" height="70" alt="" />
                                         <div>
                                             <h2>Buscador</h2>
-                                            <p>El motor de busqueda para tus cuentas bancarias.</p>
+                                            <p className='text-[#787474]'>El motor de busqueda para tus cuentas bancarias.</p>
                                         </div>
                                     </div>
                                 </li>
@@ -61,7 +61,7 @@ const Navbar = () => {
                                         <Image src="/who_1_7.png" width="70" height="70" alt="" />
                                         <div>
                                             <h2>Alertas</h2>
-                                            <p>Entérate cuando pasan cosas raras.</p>
+                                            <p className='text-[#787474]'>Entérate cuando pasan cosas raras.</p>
                                         </div>
                                     </div>
                                 </li>
@@ -72,7 +72,7 @@ const Navbar = () => {
                                         <Image src="/who_1_2.png" width="70" height="70" alt="" />
                                         <div>
                                             <h2>Previsiones</h2>
-                                            <p>El futuro de tu tesorería bajo control.</p>
+                                            <p className='text-[#787474]'>El futuro de tu tesorería bajo control.</p>
                                         </div>
                                     </div>
                                 </li>
@@ -82,7 +82,7 @@ const Navbar = () => {
                                         <Image src="/who_1_2.png" width="70" height="70" alt="" />
                                         <div>
                                             <h2>Informes</h2>
-                                            <p>Tu tesorería siempre contigo.</p>
+                                            <p className='text-[#787474]'>Tu tesorería siempre contigo.</p>
                                         </div>
                                     </div>
                                 </li>
@@ -93,7 +93,7 @@ const Navbar = () => {
                                         <Image src="/who_1_2.png" width="70" height="70" alt="" />
                                         <div>
                                             <h2>Cobros y pagos</h2>
-                                            <p>Conciliación automática de facturas.</p>
+                                            <p className='text-[#787474]'>Conciliación automática de facturas.</p>
                                         </div>
                                     </div>
                                 </li>
@@ -102,7 +102,7 @@ const Navbar = () => {
                                         <Image src="/who_1_2.png" width="70" height="70" alt="" />
                                         <div>
                                             <h2>Reglas automáticas</h2>
-                                            <p>Categorización gastos e ingresos "nivel Dios".</p>
+                                            <p className='text-[#787474]'>Categorización gastos e ingresos "nivel Dios".</p>
                                         </div>
                                     </div>
                                 </li>
@@ -118,9 +118,115 @@ const Navbar = () => {
                         Recursos
                         <IoIosArrowDown className="inline-block ml-2 group-hover:rotate-180 transform-translate duration-200 ease-in" />
                     </div>
-                    <ul tabIndex={0} className="dropdown-content menu bg-base-100 rounded-box z-[1] mt-32 w-52 p-2 shadow">
-                        <li><a>Item 1</a></li>
-                        <li><a>Item 2</a></li>
+                    <ul tabIndex={0} className="dropdown-content menu bg-base-100 rounded-box z-[1] mt-96 w-[900%] p-2 py-10 shadow">
+                        {/* <li><a>Item 1</a></li>
+                        <li><a>Item 2</a></li> */}
+
+                        {/* ............................................... */}
+                        <div className='flex gap-3'>
+                            <div>
+                                <li>
+                                    <div className='text-sm flex gap-4'>
+                                        <Image src="/nav_1.png" width="70" height="70" alt="" />
+                                        <div>
+                                            <h2>Particulares</h2>
+                                            <p className='text-[#787474]'>Para controlar tus finanzas personales y domésticas.</p>
+                                        </div>
+                                    </div>
+                                </li>
+
+
+                                <li>
+                                    <div className='text-sm flex gap-4'>
+                                        <Image src="/nav_2.png" width="70" height="70" alt="" />
+                                        <div>
+                                            <h2>Autónomos</h2>
+                                            <p className='text-[#787474]'>Para que no tengas que hacerlo todo tú solo.</p>
+                                        </div>
+                                    </div>
+                                </li>
+
+
+                                <li>
+                                    <div className='text-sm flex gap-4'>
+                                        <Image src="/nav_3.png" width="70" height="70" alt="" />
+                                        <div>
+                                            <h2>Empresas</h2>
+                                            <p className='text-[#787474]'>Para tener una visión clara de tu flujo de caja.</p>
+                                        </div>
+                                    </div>
+                                </li>
+                            </div>
+
+                            <div className='border-l-2'>
+
+                            </div>
+
+                            <div>
+                                <li>
+                                    <div className='text-sm flex gap-4'>
+                                        <Image src="/nav_4.png" width="70" height="70" alt="" />
+                                        <div>
+                                            <h2>Hostelería</h2>
+                                            <p className='text-[#787474]'>Control total de las finanzas de tu restaurante.</p>
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <li>
+                                    <div className='text-sm flex gap-4'>
+                                        <Image src="/nav_5.png" width="70" height="70" alt="" />
+                                        <div>
+                                            <h2>Farmacias</h2>
+                                            <p className='text-[#787474]'>Olvídate del caos de facturas y proveedores.</p>
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <li>
+                                    <div className='text-sm flex gap-4'>
+                                        <Image src="/nav_6.png" width="70" height="70" alt="" />
+                                        <div>
+                                            <h2>Retail</h2>
+                                            <p className='text-[#787474]'>Proveedores, compras y ventas, todo controlado.</p>
+                                        </div>
+                                    </div>
+                                </li>
+                            </div>
+                            <div>
+                                <li>
+                                    <div className='text-sm flex gap-4'>
+                                        <Image src="/nav_7.png" width="70" height="70" alt="" />
+                                        <div>
+                                            <h2>Hoteles y BnBs</h2>
+                                            <p className='text-[#787474]'>Los gastos e ingresos de tu alquiler vacacional bajo control.</p>
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <li>
+                                    <div className='text-sm flex gap-4'>
+                                        <Image src="/nav_8.png" width="70" height="70" alt="" />
+                                        <div>
+                                            <h2>Asesores y Gestorías</h2>
+                                            <p className='text-[#787474]'>Ahorra tiempo teniendo acceso directo a los datos de tus clientes.</p>
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <li>
+                                    <div className='text-sm flex gap-4'>
+                                        <Image src="/nav_9.png" width="70" height="70" alt="" />
+                                        <div>
+                                            <h2>Startups</h2>
+                                            <p className='text-[#787474]'>Las finanzas de tu proyecto bajo control.</p>
+                                        </div>
+                                    </div>
+                                </li>
+                            </div>
+                        </div>
+                        <p className='ml-48 text-center mt-5 text-[#a29e9e]'>Estos son solo algunos ejemplos. Nos adaptamos a cualquier negocio. <span className='underline text-blue-600'>Ver más...</span></p>
+                        {/* ............................................... */}
                     </ul>
                 </div>
             </li>
@@ -132,7 +238,7 @@ const Navbar = () => {
                         Funcionalidades
                         <IoIosArrowDown className="inline-block ml-2 group-hover:rotate-180 transform-translate duration-200 ease-in" />
                     </div>
-                    <ul tabIndex={0} className="dropdown-content menu bg-base-100 rounded-box z-[1] mt-40 w-[400%] p-2 shadow">
+                    <ul tabIndex={0} className="dropdown-content menu bg-base-100 rounded-box z-[1] mt-40 w-[400%] p-2 shadow py-5">
                         {/* <li><a>Item 1</a></li>
                         <li><a>Item 2</a></li> */}
 
@@ -143,7 +249,7 @@ const Navbar = () => {
                                     <Image src="/video.png" width="70" height="70" alt="" />
                                     <div>
                                         <h2>Vídeo Academy</h2>
-                                        <p>Aprende a usar Banktrack <br /> con vídeos rápidos.</p>
+                                        <p className='text-[#787474]'>Aprende a usar Banktrack <br /> con vídeos rápidos.</p>
                                     </div>
                                 </div>
                             </li>
@@ -153,7 +259,7 @@ const Navbar = () => {
                                     <Image src="/question.png" width="70" height="70" alt="" />
                                     <div>
                                         <h2>Centro de Ayuda</h2>
-                                        <p>Todo lo que necesitas saber <br /> sobre cómo usar Banktrack.</p>
+                                        <p className='text-[#787474]'>Todo lo que necesitas saber <br /> sobre cómo usar Banktrack.</p>
                                     </div>
                                 </div>
                             </li>
