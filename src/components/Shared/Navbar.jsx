@@ -29,9 +29,6 @@ const Navbar = () => {
                         <IoIosArrowDown className="inline-block ml-2 group-hover:rotate-180 transform-translate duration-200 ease-in" />
                     </div>
                     <ul tabIndex={0} className="dropdown-content menu bg-base-100 rounded-box z-[1] mt-96 py-10 w-[700%] p-2 shadow">
-                        {/* <li><a>Item 1</a></li>
-                        <li><a>Item 2</a></li> */}
-                        {/* ............................................. */}
                         <div className='flex gap-3'>
                             <div>
                                 <li>
@@ -102,13 +99,12 @@ const Navbar = () => {
                                         <Image src="/who_1_2.png" width="70" height="70" alt="" />
                                         <div>
                                             <h2>Reglas automáticas</h2>
-                                            <p className='text-[#787474]'>Categorización gastos e ingresos "nivel Dios".</p>
+                                            <p className='text-[#787474]'>Categorización gastos e ingresos &quot;nivel Dios&quot;.</p>
                                         </div>
                                     </div>
                                 </li>
                             </div>
                         </div>
-                        {/* ............................................. */}
                     </ul>
                 </div>
             </li>
@@ -119,10 +115,8 @@ const Navbar = () => {
                         <IoIosArrowDown className="inline-block ml-2 group-hover:rotate-180 transform-translate duration-200 ease-in" />
                     </div>
                     <ul tabIndex={0} className="dropdown-content menu bg-base-100 rounded-box z-[1] mt-96 w-[900%] p-2 py-10 shadow">
-                        {/* <li><a>Item 1</a></li>
-                        <li><a>Item 2</a></li> */}
 
-                        {/* ............................................... */}
+
                         <div className='flex gap-3'>
                             <div>
                                 <li>
@@ -226,7 +220,6 @@ const Navbar = () => {
                             </div>
                         </div>
                         <p className='ml-48 text-center mt-5 text-[#a29e9e]'>Estos son solo algunos ejemplos. Nos adaptamos a cualquier negocio. <span className='underline text-blue-600'>Ver más...</span></p>
-                        {/* ............................................... */}
                     </ul>
                 </div>
             </li>
@@ -239,10 +232,6 @@ const Navbar = () => {
                         <IoIosArrowDown className="inline-block ml-2 group-hover:rotate-180 transform-translate duration-200 ease-in" />
                     </div>
                     <ul tabIndex={0} className="dropdown-content menu bg-base-100 rounded-box z-[1] mt-40 w-[400%] p-2 shadow py-5">
-                        {/* <li><a>Item 1</a></li>
-                        <li><a>Item 2</a></li> */}
-
-                        {/* ............................................................ */}
                         <div className='flex gap-5'>
                             <li>
                                 <div className='text-sm flex gap-4'>
@@ -264,7 +253,6 @@ const Navbar = () => {
                                 </div>
                             </li>
                         </div>
-                        {/* ............................................................ */}
                     </ul>
                 </div>
             </li>
@@ -272,9 +260,9 @@ const Navbar = () => {
     );
 
     return (
-        <div className="max-w-7xl mx-auto">
-            <div className={`max-w-7xl mx-auto navbar mt-3 fixed z-50 ${isScrolled ? 'bg-white shadow-md' : 'bg-transparent'}`}>
-                <div className="navbar-start">
+        <div className="">
+            <div className={`navbar z-50 fixed ${isScrolled ? 'bg-white shadow-md' : 'bg-transparent'}`}>
+                <div className="navbar-start lg:pl-32">
                     <Image src="/logo.png" width="100" height="100" alt="Banktrack logo" className="h-7 w-7" />
                     <Link href="/" className="ml-2 text-base md:text-xl font-bold">Banktrack</Link>
 
@@ -285,7 +273,7 @@ const Navbar = () => {
                     </div>
                 </div>
 
-                <div className="navbar-end">
+                <div className="navbar-end lg:pr-32">
                     <Link className="text-[14px] rounded-full px-4 mr-3 hidden md:grid" href="">Entrar</Link>
                     <Link className="text-[14px] btn bg-black text-white rounded-full px-4 border-none" href="">Empieza gratis</Link>
                     <div className="dropdown">
