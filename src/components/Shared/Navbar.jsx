@@ -297,48 +297,71 @@ const Navbar = () => {
                         </div>
                         {/* ................................................... */}
                         <dialog id="my_modal_3" className="modal fixed inset-0 p-0 m-0">
-                            <div className="h-screen w-full m-0 p-0 relative bg-white">
-                                <form method="dialog">
-                                    {/* Close button */}
-                                    <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">✕</button>
-                                </form>
-                                <div className='mt-20'>
-                                    <div className="collapse collapse-arrow border-b-2 mb-5 shadow-none rounded-none">
-                                        <input type="checkbox" name="my-accordion-2" defaultChecked />
-                                        <div className="collapse-title text-2xl font-medium">Funcionalidades</div>
-                                        <div className="collapse-content">
-                                            <p>hello</p>
+                            <div className="h-screen w-full relative bg-white flex flex-col justify-between ">
+                                <div>
+                                    <form method="dialog">
+                                        {/* Close button */}
+                                        <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">✕</button>
+                                    </form>
+                                    <div className='mt-20 w-[90%] mx-auto'>
+                                        <div className="collapse collapse-arrow border-b-2 mb-5 shadow-none rounded-none">
+                                            <input type="checkbox" name="my-accordion-2" />
+                                            <div className="collapse-title text-2xl font-medium">Funcionalidades</div>
+                                            <div className="collapse-content">
+                                                <p>hello</p>
+                                            </div>
                                         </div>
-                                    </div>
-                                    <div className="collapse collapse-arrow border-b-2 mb-5 shadow-none rounded-none">
-                                        <input type="checkbox" name="my-accordion-2" defaultChecked />
-                                        <div className="collapse-title text-2xl font-medium">¿Para quién es?</div>
-                                        <div className="collapse-content">
-                                            <p>hello</p>
+                                        <div className="collapse collapse-arrow border-b-2 mb-5 shadow-none rounded-none">
+                                            <input type="checkbox" name="my-accordion-2" />
+                                            <div className="collapse-title text-2xl font-medium">¿Para quién es?</div>
+                                            <div className="collapse-content">
+                                                <p>hello</p>
+                                            </div>
                                         </div>
-                                    </div>
-                                    <div className="collapse collapse-arrow border-b-2 mb-5 shadow-none rounded-none">
-                                        <input type="checkbox" name="my-accordion-2" />
-                                        <div className="collapse-title text-2xl font-medium">Casos de éxito</div>
-                                        <div className="collapse-content">
+                                        <div className="collapse border-b-2 mb-5 shadow-none rounded-none">
+                                            {/* <input type="checkbox" name="my-accordion-2" /> */}
+                                            <div className="collapse-title text-2xl font-medium">Casos de éxito</div>
+                                            {/* <div className="collapse-content">
                                             <p>hello</p>
+                                        </div> */}
                                         </div>
-                                    </div>
-                                    <div className="collapse collapse-arrow border-b-2 mb-5 shadow-none rounded-none">
-                                        <input type="checkbox" name="my-accordion-2" />
-                                        <div className="collapse-title text-2xl font-medium">Precios</div>
-                                        <div className="collapse-content">
+                                        <div className="collapse border-b-2 mb-5 shadow-none rounded-none">
+                                            {/* <input type="checkbox" name="my-accordion-2" /> */}
+                                            <div className="collapse-title text-2xl font-medium">Precios</div>
+                                            {/* <div className="collapse-content">
                                             <p>hello</p>
+                                        </div> */}
                                         </div>
-                                    </div>
-                                    <div className="collapse collapse-arrow border-b-2 mb-5 shadow-none rounded-none">
-                                        <input type="checkbox" name="my-accordion-2" defaultChecked />
-                                        <div className="collapse-title text-2xl font-medium">Recursos</div>
-                                        <div className="collapse-content">
-                                            <p>hello</p>
+                                        <div className="collapse collapse-arrow border-b-2 mb-5 shadow-none rounded-none">
+                                            <input type="checkbox" name="my-accordion-2" />
+                                            <div className="collapse-title text-2xl font-medium">Recursos</div>
+                                            <div className="collapse-content">
+                                                <div className='mt-5 text-base flex gap-4'>
+                                                    <Image src="/video.png" width="70" height="70" alt="" />
+                                                    <div>
+                                                        <h2>Vídeo Academy</h2>
+                                                        <p className='text-[#787474]'>Aprende a usar Banktrack <br /> con vídeos rápidos.</p>
+                                                    </div>
+                                                </div>
+                                                <div className='mt-5 text-base flex gap-4'>
+                                                    <Image src="/question.png" width="70" height="70" alt="" />
+                                                    <div>
+                                                        <h2>Centro de Ayuda</h2>
+                                                        <p className='text-[#787474]'>Todo lo que necesitas saber <br /> sobre cómo usar Banktrack.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
                                         </div>
+
+
                                     </div>
                                 </div>
+                                {/* ............................................ */}
+                                <div className='w-[90%] mx-auto mb-20'>
+                                    <Link className="text-[14px] w-full btn bg-[#4021C8] text-white rounded-full px-4 border-none" href="">Empieza gratis</Link>
+                                    <Link className="text-[14px] w-full btn btn-ghost rounded-full px-4 mr-3 mt-5" href="">Entrar</Link>
+                                </div>
+                                {/* ............................................ */}
                             </div>
                         </dialog>
 
