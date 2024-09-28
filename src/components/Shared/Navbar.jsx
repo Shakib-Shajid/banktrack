@@ -277,7 +277,7 @@ const Navbar = () => {
                     <Link className="text-[14px] rounded-full px-4 mr-3 hidden md:grid" href="">Entrar</Link>
                     <Link className="text-[14px] btn bg-black text-white rounded-full px-4 border-none" href="">Empieza gratis</Link>
                     <div className="dropdown">
-                        <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
+                        <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden" onClick={() => document.getElementById('my_modal_3').showModal()}>
                             <svg
                                 xmlns="http://www.w3.org/2000/svg"
                                 className="h-5 w-5"
@@ -291,8 +291,58 @@ const Navbar = () => {
                                     strokeWidth="2"
                                     d="M4 6h16M4 12h8m-8 6h16"
                                 />
+
                             </svg>
+
                         </div>
+                        {/* ................................................... */}
+                        <dialog id="my_modal_3" className="modal fixed inset-0 p-0 m-0">
+                            <div className="h-screen w-full m-0 p-0 relative bg-white">
+                                <form method="dialog">
+                                    {/* Close button */}
+                                    <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">✕</button>
+                                </form>
+                                <div className='mt-20'>
+                                    <div className="collapse collapse-arrow border-b-2 mb-5 shadow-none rounded-none">
+                                        <input type="checkbox" name="my-accordion-2" defaultChecked />
+                                        <div className="collapse-title text-2xl font-medium">Funcionalidades</div>
+                                        <div className="collapse-content">
+                                            <p>hello</p>
+                                        </div>
+                                    </div>
+                                    <div className="collapse collapse-arrow border-b-2 mb-5 shadow-none rounded-none">
+                                        <input type="checkbox" name="my-accordion-2" defaultChecked />
+                                        <div className="collapse-title text-2xl font-medium">¿Para quién es?</div>
+                                        <div className="collapse-content">
+                                            <p>hello</p>
+                                        </div>
+                                    </div>
+                                    <div className="collapse collapse-arrow border-b-2 mb-5 shadow-none rounded-none">
+                                        <input type="checkbox" name="my-accordion-2" />
+                                        <div className="collapse-title text-2xl font-medium">Casos de éxito</div>
+                                        <div className="collapse-content">
+                                            <p>hello</p>
+                                        </div>
+                                    </div>
+                                    <div className="collapse collapse-arrow border-b-2 mb-5 shadow-none rounded-none">
+                                        <input type="checkbox" name="my-accordion-2" />
+                                        <div className="collapse-title text-2xl font-medium">Precios</div>
+                                        <div className="collapse-content">
+                                            <p>hello</p>
+                                        </div>
+                                    </div>
+                                    <div className="collapse collapse-arrow border-b-2 mb-5 shadow-none rounded-none">
+                                        <input type="checkbox" name="my-accordion-2" defaultChecked />
+                                        <div className="collapse-title text-2xl font-medium">Recursos</div>
+                                        <div className="collapse-content">
+                                            <p>hello</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </dialog>
+
+                        {/* ................................................... */}
                     </div>
                 </div>
             </div>
