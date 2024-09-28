@@ -262,7 +262,7 @@ const Navbar = () => {
     return (
         <div className="">
             <div className={`navbar z-50 fixed ${isScrolled ? 'bg-white shadow-md' : 'bg-transparent'}`}>
-                <div className="navbar-start lg:pl-32">
+                <div className="navbar-start md:pl-12 lg:pl-32">
                     <Image src="/logo.png" width="100" height="100" alt="Banktrack logo" className="h-7 w-7" />
                     <Link href="/" className="ml-2 text-base md:text-xl font-bold">Banktrack</Link>
 
@@ -273,7 +273,7 @@ const Navbar = () => {
                     </div>
                 </div>
 
-                <div className="navbar-end lg:pr-32">
+                <div className="navbar-end md:pr-12 lg:pr-32">
                     <Link className="text-[14px] rounded-full px-4 mr-3 hidden md:grid" href="">Entrar</Link>
                     <Link className="text-[14px] btn bg-black text-white rounded-full px-4 border-none" href="">Empieza gratis</Link>
                     <div className="dropdown">
