@@ -274,7 +274,7 @@ const Navbar = () => {
                 </div>
 
                 <div className="navbar-end md:pr-12 lg:pr-32">
-                    <Link className="text-[14px] rounded-full px-4 mr-3 hidden md:grid" href="">Entrar</Link>
+                    <Link className="text-[14px] rounded-full px-4 mr-3 hidden md:grid" href="/iniciar-sesion">Entrar</Link>
                     <Link className="text-[14px] btn bg-black text-white rounded-full px-4 border-none" href="/registrarse">Empieza gratis</Link>
                     <div className="dropdown">
                         <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden" onClick={() => document.getElementById('my_modal_3').showModal()}>
