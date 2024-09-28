@@ -18,14 +18,14 @@ const page = () => {
                     {/* ......................................... */}
                     <div className="flex flex-col border-opacity-50" >
                         <div>
-                            <div className='w-[80%] mx-auto'>
+                            <div className='w-[80%] md:w-full mx-auto'>
                                 <h3 className='text-2xl lg:text-4xl font-bold'>Accede a tu cuenta</h3>
-                                <p className='text-xs lg:text-lg text-[#9b9a9a] mt-5 mb-10'>Inicia sesión con tu cuenta de Google, con tu email o con un código de un solo uso.</p>
-                                <button className='btn bg-white rounded-full text-sm w-full mx-auto'><FcGoogle className='text-xl relative -left-8 lg:-left-20' />Registrarse con Google</button>
-                                <button className='btn bg-white rounded-full text-sm w-full mx-auto mt-5'>*** Solicitar código de un uso</button>
+                                <p className='text-lg text-[#9b9a9a] mt-5 mb-10 md:w-[80%] md:mx-auto'>Inicia sesión con tu cuenta de Google, con tu email o con un código de un solo uso.</p>
+                                <button className='btn bg-white rounded-full text-sm w-full lg:w-[80%] mx-auto'><FcGoogle className='text-xl relative -left-8 lg:-left-20' />Registrarse con Google</button>
+                                <button className='btn bg-white rounded-full text-sm w-full lg:w-[80%] mx-auto mt-5'>*** Solicitar código de un uso</button>
                             </div>
                         </div>
-                        <div className="divider my-10 w-[80%]  mx-auto">O</div>
+                        <div className="divider my-10 w-[80%] md:w-full lg:w-[80%] mx-auto">O</div>
                         <div className='space-y-3 w-[80%] md:w-full mx-auto'>
                             <input type="email" placeholder="Tu correo electrónico" className="input input-bordered w-full lg:w-[80%] " />
                             <input type="password" placeholder="Contraseña" className="input input-bordered w-full lg:w-[80%]" />
