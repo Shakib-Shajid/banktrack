@@ -297,25 +297,139 @@ const Navbar = () => {
                         </div>
                         {/* ................................................... */}
                         <dialog id="my_modal_3" className="modal fixed inset-0 p-0 m-0">
-                            <div className="h-screen w-full relative bg-white flex flex-col justify-between ">
+                            <div className="h-full w-full relative bg-white flex flex-col justify-between overflow-y-auto">
                                 <div>
                                     <form method="dialog">
                                         {/* Close button */}
                                         <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">✕</button>
                                     </form>
                                     <div className='mt-20 w-[90%] mx-auto'>
-                                        <div className="collapse collapse-arrow border-b-2 mb-5 shadow-none rounded-none">
+                                        <div className="collapse collapse-arrow border-b-2 mb-5 shadow-none rounded-none ">
                                             <input type="checkbox" name="my-accordion-2" />
                                             <div className="collapse-title text-2xl font-medium">Funcionalidades</div>
-                                            <div className="collapse-content">
-                                                <p>hello</p>
+                                            <div className="collapse-content ">
+                                                <div className='mt-5 text-base flex gap-4'>
+                                                    <Image src="/who_1_2.png" width="80" height="80" alt="" />
+                                                    <div>
+                                                        <h2>Dashboards</h2>
+                                                        <p className='text-[#787474]'>La vista de datos bancarios que siempre quisiste.</p>
+                                                    </div>
+                                                </div>
+                                                <div className='mt-5 text-base flex gap-4'>
+                                                    <Image src="/who_1_3.png" width="80" height="80" alt="" />
+                                                    <div>
+                                                        <h2>Buscador</h2>
+                                                        <p className='text-[#787474]'>El motor de busqueda para tus cuentas bancarias.</p>
+                                                    </div>
+                                                </div>
+                                                <div className='mt-5 text-base flex gap-4'>
+                                                    <Image src="/who_1_7.png" width="80" height="80" alt="" />
+                                                    <div>
+                                                        <h2>Alertas</h2>
+                                                        <p className='text-[#787474]'>Entérate cuando pasan cosas raras.</p>
+                                                    </div>
+                                                </div>
+                                                <div className='mt-5 text-base flex gap-4'>
+                                                    <Image src="/who_1_2.png" width="80" height="80" alt="" />
+                                                    <div>
+                                                        <h2>Previsiones</h2>
+                                                        <p className='text-[#787474]'>El futuro de tu tesorería bajo control.</p>
+                                                    </div>
+                                                </div>
+                                                <div className='mt-5 text-base flex gap-4'>
+                                                    <Image src="/who_1_2.png" width="80" height="80" alt="" />
+                                                    <div>
+                                                        <h2>Informes</h2>
+                                                        <p className='text-[#787474]'>Tu tesorería siempre contigo.</p>
+                                                    </div>
+                                                </div>
+                                                <div className='mt-5 text-base flex gap-4'>
+                                                    <Image src="/who_1_2.png" width="80" height="80" alt="" />
+                                                    <div>
+                                                        <h2>Cobros y pagos</h2>
+                                                        <p className='text-[#787474]'>Conciliación automática de facturas.</p>
+                                                    </div>
+                                                </div>
+                                                <div className='mt-5 text-base flex gap-4'>
+                                                    <Image src="/who_1_2.png" width="80" height="80" alt="" />
+                                                    <div>
+                                                        <h2>Reglas automáticas</h2>
+                                                        <p className='text-[#787474]'>Categorización gastos e ingresos &quot;nivel Dios&quot;.</p>
+                                                    </div>
+                                                </div>
                                             </div>
                                         </div>
                                         <div className="collapse collapse-arrow border-b-2 mb-5 shadow-none rounded-none">
                                             <input type="checkbox" name="my-accordion-2" />
                                             <div className="collapse-title text-2xl font-medium">¿Para quién es?</div>
                                             <div className="collapse-content">
-                                                <p>hello</p>
+                                                <div className='mt-5 text-base flex gap-4'>
+                                                    <Image src="/nav_1.png" width="70" height="70" alt="" />
+                                                    <div>
+                                                        <h2>Particulares</h2>
+                                                        <p className='text-[#787474]'>Para controlar tus finanzas personales y domésticas.</p>
+                                                    </div>
+                                                </div>
+                                                <div className='mt-5 text-base flex gap-4'>
+                                                    <Image src="/nav_2.png" width="70" height="70" alt="" />
+                                                    <div>
+                                                        <h2>Autónomos</h2>
+                                                        <p className='text-[#787474]'>Para que no tengas que hacerlo todo tú solo.</p>
+                                                    </div>
+                                                </div>
+                                                <div className='mt-5 text-base flex gap-4'>
+                                                    <Image src="/nav_3.png" width="70" height="70" alt="" />
+                                                    <div>
+                                                        <h2>Empresas</h2>
+                                                        <p className='text-[#787474]'>Para tener una visión clara de tu flujo de caja.</p>
+                                                    </div>
+                                                </div>
+                                                <div className='border-b-2 my-5'>
+
+                                                </div>
+                                                <div className='mt-5 text-base flex gap-4'>
+                                                    <Image src="/nav_4.png" width="70" height="70" alt="" />
+                                                    <div>
+                                                        <h2>Hostelería</h2>
+                                                        <p className='text-[#787474]'>Control total de las finanzas de tu restaurante.</p>
+                                                    </div>
+                                                </div>
+                                                <div className='mt-5 text-base flex gap-4'>
+                                                    <Image src="/nav_5.png" width="70" height="70" alt="" />
+                                                    <div>
+                                                        <h2>Farmacias</h2>
+                                                        <p className='text-[#787474]'>Olvídate del caos de facturas y proveedores.</p>
+                                                    </div>
+                                                </div>
+                                                <div className='mt-5 text-base flex gap-4'>
+                                                    <Image src="/nav_6.png" width="70" height="70" alt="" />
+                                                    <div>
+                                                        <h2>Retail</h2>
+                                                        <p className='text-[#787474]'>Proveedores, compras y ventas, todo controlado.</p>
+                                                    </div>
+                                                </div>
+                                                <div className='mt-5 text-base flex gap-4'>
+                                                    <Image src="/nav_7.png" width="70" height="70" alt="" />
+                                                    <div>
+                                                        <h2>Hoteles y BnBs</h2>
+                                                        <p className='text-[#787474]'>Los gastos e ingresos de tu alquiler vacacional bajo control.</p>
+                                                    </div>
+                                                </div>
+                                                <div className='mt-5 text-base flex gap-4'>
+                                                    <Image src="/nav_8.png" width="70" height="70" alt="" />
+                                                    <div>
+                                                        <h2>Asesores y Gestorías</h2>
+                                                        <p className='text-[#787474]'>Ahorra tiempo teniendo acceso directo a los datos de tus clientes.</p>
+                                                    </div>
+                                                </div>
+                                                <div className='mt-5 text-base flex gap-4'>
+                                                    <Image src="/nav_9.png" width="70" height="70" alt="" />
+                                                    <div>
+                                                        <h2>Startups</h2>
+                                                        <p className='text-[#787474]'>Las finanzas de tu proyecto bajo control.</p>
+                                                    </div>
+                                                </div>
+                                                <p className='ml-1 mt-5 text-[#a29e9e]'>Estos son solo algunos ejemplos. Nos adaptamos a cualquier negocio. <span className='underline text-blue-600'>Ver más...</span></p>
                                             </div>
                                         </div>
                                         <div className="collapse border-b-2 mb-5 shadow-none rounded-none">
