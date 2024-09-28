@@ -21,7 +21,7 @@ const page = () => {
                             <div className='w-[100%] mx-auto'>
                                 <h3 className='text-2xl md:text-3xl lg:text-4xl font-bold'>Empieza tu prueba gratis</h3>
                                 <p className='md:text-lg lg:text-lg text-[#9b9a9a] mt-5 mb-10'>Prueba de 14 días. No necesitas tarjeta de crédito.</p>
-                                <button className='w-[90%] md:w-[100%] btn bg-white rounded-full text-sm mx-auto'><FcGoogle className='text-xl relative -left-8 lg:-left-20' />Registrarse con Google</button>
+                                <button className='w-[90%] md:w-[100%] btn bg-white rounded-full text-sm mx-auto'><FcGoogle className='text-xl relative -left-16 md:-left-28' />Registrarse con Google</button>
                             </div>
                         </div>
                         <div className="divider my-10 w-[90%] md:w-[100%] mx-auto">O</div>
