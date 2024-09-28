@@ -295,13 +295,22 @@ const Navbar = () => {
                             </svg>
 
                         </div>
-                        {/* ................................................... */}
                         <dialog id="my_modal_3" className="modal fixed inset-0 p-0 m-0">
                             <div className="h-full w-full relative bg-white flex flex-col justify-between overflow-y-auto">
                                 <div>
+                                    {/* .................................................................................... */}
+                                    <div className="flex justify-between items-stretch w-[90%] mx-auto mt-5">
+                                        <div className='flex gap-2  items-center'>
+                                            <Image src="/logo.png" width="100" height="100" alt="Banktrack logo" className="h-8 w-8" />
+                                            <Link href="/" className="ml-2 text-base md:text-xl font-bold">Banktrack</Link>
+                                        </div>
+
+                                        <button className='text-[14px] btn bg-black text-white rounded-full px-4 border-none mr-8'><Link className="" href="">Empieza gratis</Link></button>
+                                    </div>
+                                    {/* .................................................................................... */}
                                     <form method="dialog">
                                         {/* Close button */}
-                                        <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">✕</button>
+                                        <button className="btn btn-sm btn-circle btn-ghost absolute right-3 top-7 text-xl">✕</button>
                                     </form>
                                     <div className='mt-20 w-[90%] mx-auto'>
                                         <div className="collapse collapse-arrow border-b-2 mb-5 shadow-none rounded-none ">
@@ -470,16 +479,13 @@ const Navbar = () => {
 
                                     </div>
                                 </div>
-                                {/* ............................................ */}
                                 <div className='w-[90%] mx-auto mb-20'>
                                     <Link className="text-[14px] w-full btn bg-[#4021C8] text-white rounded-full px-4 border-none" href="">Empieza gratis</Link>
                                     <Link className="text-[14px] w-full btn btn-ghost rounded-full px-4 mr-3 mt-5" href="">Entrar</Link>
                                 </div>
-                                {/* ............................................ */}
                             </div>
                         </dialog>
 
-                        {/* ................................................... */}
                     </div>
                 </div>
             </div>
