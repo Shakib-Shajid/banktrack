@@ -5,6 +5,7 @@ import { FaXTwitter } from "react-icons/fa6";
 import { FaInstagram } from "react-icons/fa";
 import { FaTiktok } from "react-icons/fa";
 import { FaYoutube } from "react-icons/fa";
+import Link from 'next/link';
 
 
 const Footer = () => {
@@ -17,16 +18,16 @@ const Footer = () => {
 
                 <nav className='space-y-2'>
                     <h6 className="footer-title text-[#888585]">Sobre Banktrack</h6>
-                    <a className="link link-hover">Funcionalidades</a>
-                    <a className="link link-hover">Soluciones</a>
-                    <a className="link link-hover">Precios</a>
-                    <a className="link link-hover">Quiénes somos</a>
-                    <a className="link link-hover">Blog</a>
+                    <Link href="/" className="link link-hover">Funcionalidades</Link>
+                    <Link href="#soluciones" className="link link-hover">Soluciones</Link>
+                    <Link href="/" className="link link-hover">Precios</Link>
+                    <Link href="/" className="link link-hover">Quiénes somos</Link>
+                    <Link href="/" className="link link-hover">Blog</Link>
                 </nav>
                 <nav className='space-y-2'>
                     <h6 className="footer-title text-[#888585]">Soporte</h6>
-                    <a className="link link-hover">Ayuda</a>
-                    <a className="link link-hover">Email</a>
+                    <Link href="" className="link link-hover">Ayuda</Link>
+                    <Link href="mailto:soporte@banktrack.com" target="_blank" className="link link-hover">Email</Link>
                 </nav>
                 <nav className='space-y-2'>
                     <h6 className="footer-title text-[#888585]">Artículos destacados</h6>
@@ -37,21 +38,21 @@ const Footer = () => {
                 <nav className='space-y-2'>
                     <h6 className="footer-title text-[#888585]">Síguenos</h6>
                     <div className="grid grid-flow-col gap-4 text-2xl">
-                        <a>
+                        <Link href="https://linkedin.com/" target="_blank">
                             <FaLinkedinIn />
-                        </a>
-                        <a>
+                        </Link>
+                        <Link href="https://x.com/" target="_blank">
                             <FaXTwitter />
-                        </a>
-                        <a>
+                        </Link>
+                        <Link href="https://www.instagram.com/" target="_blank">
                             <FaInstagram />
-                        </a>
-                        <a>
+                        </Link>
+                        <Link href="https://www.tiktok.com/" target="_blank">
                             <FaTiktok />
-                        </a>
-                        <a>
+                        </Link>
+                        <Link href="https://www.youtube.com/" target="_blank">
                             <FaYoutube />
-                        </a>
+                        </Link>
                     </div>
                 </nav>
             </footer>
@@ -68,15 +69,15 @@ const Footer = () => {
                 </div>
                 <nav className="lg:place-self-center lg:justify-self-end">
                     <div className="flex flex-col lg:grid lg:grid-flow-col gap-4">
-                        <a>
+                        <Link href="/">
                             Términos y condiciones
-                        </a>
-                        <a>
+                        </Link>
+                        <Link href="/">
                             Política de privacidad
-                        </a>
-                        <a>
+                        </Link>
+                        <Link href="/">
                             Gestionar cookies
-                        </a>
+                        </Link>
                     </div>
                 </nav>
             </footer>
