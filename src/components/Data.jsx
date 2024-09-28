@@ -19,7 +19,7 @@ const Data = () => {
                         <Link href="/registrarse"><button className="btn btn-primary rounded-full text-lg text-white btn-lg  px-10">Ver dashboard con mis datos</button></Link>
                         <div className='flex flex-col md:flex-row gap-3 text-[#888585] my-5'>
                             <p><IoMdCheckmark className='inline-block' /> Tu cuenta gratis en 2 minutos</p>
-                            <p><IoMdCheckmark className='inline-block' /> Sin tarjeta de crédito</p>
+                            <p><IoMdCheckmark className='inline-block' /> Sin tarjeta de crédito</p> 
                         </div>
                     </div>
                 </div>
