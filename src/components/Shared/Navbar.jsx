@@ -442,18 +442,12 @@ const Navbar = () => {
                                             </div>
                                         </div>
                                         <div className="collapse border-b-2 mb-5 shadow-none rounded-none">
-                                            {/* <input type="checkbox" name="my-accordion-2" /> */}
                                             <div className="collapse-title text-2xl font-medium">Casos de éxito</div>
-                                            {/* <div className="collapse-content">
-                                            <p>hello</p>
-                                        </div> */}
+                                    
                                         </div>
                                         <div className="collapse border-b-2 mb-5 shadow-none rounded-none">
-                                            {/* <input type="checkbox" name="my-accordion-2" /> */}
                                             <div className="collapse-title text-2xl font-medium">Precios</div>
-                                            {/* <div className="collapse-content">
-                                            <p>hello</p>
-                                        </div> */}
+                                
                                         </div>
                                         <div className="collapse collapse-arrow border-b-2 mb-5 shadow-none rounded-none">
                                             <input type="checkbox" name="my-accordion-2" />
@@ -476,12 +470,11 @@ const Navbar = () => {
                                             </div>
                                         </div>
 
-
                                     </div>
                                 </div>
                                 <div className='w-[90%] mx-auto mb-20'>
-                                    <Link className="text-[14px] w-full btn bg-[#4021C8] text-white rounded-full px-4 border-none" href="">Empieza gratis</Link>
-                                    <Link className="text-[14px] w-full btn btn-ghost rounded-full px-4 mr-3 mt-5" href="">Entrar</Link>
+                                    <Link className="text-[14px] w-full btn bg-[#4021C8] text-white rounded-full px-4 border-none" href="/registrarse">Empieza gratis</Link>
+                                    <Link className="text-[14px] w-full btn btn-ghost rounded-full px-4 mr-3 mt-5" href="/iniciar-sesion">Entrar</Link>
                                 </div>
                             </div>
                         </dialog>

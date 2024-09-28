@@ -15,7 +15,6 @@ const page = () => {
                 </div>
                 <div className='md:w-[80%] mx-auto lg:w-[70%] flex justify-center text-center pt-10'>
 
-                    {/* ......................................... */}
                     <div className="flex flex-col border-opacity-50" >
                         <div>
                             <div className='w-[100%] mx-auto'>
@@ -32,8 +31,8 @@ const page = () => {
                                 <button className='btn btn-lg text-white rounded-full w-full bg-[#4021C8] '>Empezar</button>
                             </div>
                         </div>
+
                     </div>
-                    {/* ......................................... */}
 
                 </div>
             </div>

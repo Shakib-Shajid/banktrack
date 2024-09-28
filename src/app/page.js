@@ -1,4 +1,5 @@
 import Banner from "@/components/Banner";
+import CardToggle from "@/components/CardToggle";
 import Client from "@/components/Client";
 import ClientResponse from "@/components/ClientResponse";
 import Collection from "@/components/Collection";
@@ -22,6 +23,7 @@ export default function Home() {
       <Consultant />
       <ClientResponse />
       <Data />
+      {/* <CardToggle /> */}
     </>
   );
 }
