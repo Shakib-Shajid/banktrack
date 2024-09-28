@@ -224,7 +224,7 @@ const Navbar = () => {
                 </div>
             </li>
             <li><a>Casos de éxito</a></li>
-            <li><a>Precios</a></li>
+            <li><Link href="/precios">Precios</Link></li>
             <li>
                 <div className="dropdown dropdown-hover">
                     <div tabIndex={0} role="button" className="group">

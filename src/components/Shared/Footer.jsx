@@ -20,7 +20,7 @@ const Footer = () => {
                     <h6 className="footer-title text-[#888585]">Sobre Banktrack</h6>
                     <Link href="/" className="link link-hover">Funcionalidades</Link>
                     <Link href="#soluciones" className="link link-hover">Soluciones</Link>
-                    <Link href="/" className="link link-hover">Precios</Link>
+                    <Link href="/precios" className="link link-hover">Precios</Link>
                     <Link href="/" className="link link-hover">Quiénes somos</Link>
                     <Link href="/" className="link link-hover">Blog</Link>
                 </nav>
