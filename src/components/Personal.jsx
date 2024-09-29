@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Link from 'next/link';
 import React from 'react';
 
 const Personal = () => {
@@ -6,7 +7,7 @@ const Personal = () => {
         <div>
             <div className="grid grid-cols-1 md:grid-cols-2 w-full md:w-[90%] lg:w-[55%] mx-auto gap-5">
                 {/* 1st */}
-                <div className="card bg-base-100 w-96 mx-auto md:w-[19rem] lg:w-96 shadow-xl">
+                <div className="card bg-base-100 w-96 mx-auto md:w-[19rem] lg:w-96 shadow-xl pt-5">
                     <div className="p-6 text-start border-b-2">
                         <h2 className="text-2xl font-bold text-[#777777] ">Free</h2>
                         <p className="text-gray-500 mb-4">Si solo tienes un banco a conectar</p>
@@ -106,9 +107,11 @@ const Personal = () => {
                                 <p className='text-[#777777]'>Agente de soporte dedicado a ti</p>
                             </div>
                         </div>
-                        <div className="card-actions justify-end pt-5">
-                            <button className="btn bg-[#4021C8] text-white w-full rounded-full btn-lg">Regístrate</button>
-                        </div>
+                        <Link href="/registrarse">
+                            <div className="card-actions justify-end pt-5">
+                                <button className="btn bg-[#4021C8] text-white w-full rounded-full btn-lg">Regístrate</button>
+                            </div>
+                        </Link>
 
                         <p className='text-[#777777] text-sm text-center'>Crea tu cuenta en 2 minutos. <br /> Gratis para siempre.</p>
                     </div>
@@ -116,7 +119,7 @@ const Personal = () => {
 
 
                 {/* 2nd */}
-                <div className="card bg-base-100 w-96 mx-auto md:w-[19rem] lg:w-96 shadow-xl">
+                <div className="card bg-base-100 w-96 mx-auto md:w-[19rem] lg:w-96 shadow-xl pt-5">
                     <div className="p-6 text-start border-b-2">
                         <h2 className="text-2xl font-bold text-orange-500 ">Personal</h2>
                         <p className="text-gray-500 mb-4">Para tus finanzas personales</p>
@@ -178,7 +181,7 @@ const Personal = () => {
 
                         {/* 6th */}
                         <div className='flex gap-2 text-[#888585]'>
-                            <Image src="/price_6.png" width="30" height="30" alt="" className='h-10 w-10 filter grayscale'  />
+                            <Image src="/price_6.png" width="30" height="30" alt="" className='h-10 w-10 filter grayscale' />
                             <div className='text-start text-sm'>
                                 <h4 className='font-bold'>Conciliación de Facturas con IA</h4>
                                 <p className='text-[#777777]'>Escanea hasta <span className='font-bold underline text-black decoration-2 decoration-orange-300'> 1000 facturas </span>cada trimestre</p>
@@ -187,7 +190,7 @@ const Personal = () => {
 
                         {/* 7th */}
                         <div className='flex gap-2 text-[#888585]'>
-                            <Image src="/price_7.png" width="30" height="30" alt="" className='h-10 w-10 filter grayscale'  />
+                            <Image src="/price_7.png" width="30" height="30" alt="" className='h-10 w-10 filter grayscale' />
                             <div className='text-start text-sm'>
                                 <h4 className='font-bold'>Gestiona varios negocios y entidades</h4>
                                 <p className='text-[#777777]'>Crea hasta <span className='font-bold underline text-black decoration-2 decoration-orange-300'> 3 espacios de trabajo</span></p>
@@ -196,7 +199,7 @@ const Personal = () => {
 
                         {/* 8th */}
                         <div className='flex gap-2 text-[#888585]'>
-                            <Image src="/price_8.png" width="30" height="30" alt="" className='h-10 w-10 filter grayscale'  />
+                            <Image src="/price_8.png" width="30" height="30" alt="" className='h-10 w-10 filter grayscale' />
                             <div className='text-start text-sm'>
                                 <h4 className='font-bold'>Previsiones</h4>
                                 <p className='text-[#777777]'>Escenarios y previsiones ilimitadas</p>
@@ -205,7 +208,7 @@ const Personal = () => {
 
                         {/* 9th */}
                         <div className='flex gap-2 text-[#888585]'>
-                            <Image src="/price_9.png" width="30" height="30" alt="" className='h-10 w-10 filter grayscale'  />
+                            <Image src="/price_9.png" width="30" height="30" alt="" className='h-10 w-10 filter grayscale' />
                             <div className='text-start text-sm'>
                                 <h4 className='font-bold'>Integraciones adicionales</h4>
                                 <p className='text-[#777777]'>Conecta con más servicios externos</p>
@@ -220,9 +223,11 @@ const Personal = () => {
                                 <p className='text-[#777777]'>Agente de soporte dedicado a ti</p>
                             </div>
                         </div>
-                        <div className="card-actions justify-end pt-5 pb-2">
-                            <button className="btn bg-[#4021C8] text-white w-full rounded-full btn-lg">Empieza gratis</button>
-                        </div>
+                        <Link href="/registrarse">
+                            <div className="card-actions justify-end pt-5 pb-2">
+                                <button className="btn bg-[#4021C8] text-white w-full rounded-full btn-lg">Empieza gratis</button>
+                            </div>
+                        </Link>
 
                         <p className='text-[#777777] text-sm'>Pruébalo 14 días. Sin tarjeta de crédito.</p>
                     </div>

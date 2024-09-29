@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Link from 'next/link';
 import React from 'react';
 
 const Empieza = () => {
@@ -6,7 +7,7 @@ const Empieza = () => {
         <div>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 w-full md:w-[90%] lg:w-[80%] mx-auto">
                 {/* 1st */}
-                <div className="card bg-base-100 w-96 mx-auto md:w-80 lg:w-96 shadow-xl">
+                <div className="card bg-base-100 w-96 mx-auto md:w-80 lg:w-96 shadow-xl pt-5">
                     <div className="p-6 text-start border-b-2">
                         <h2 className="text-2xl font-bold text-purple-600 ">Starter</h2>
                         <p className="text-gray-500 mb-4">Perfecto para negocios que empiezan</p>
@@ -111,16 +112,18 @@ const Empieza = () => {
                                 <p className='text-[#777777]'>Agente de soporte dedicado a ti</p>
                             </div>
                         </div>
-                        <div className="card-actions justify-end">
-                            <button className="btn bg-[#4021C8] text-white w-full rounded-full btn-lg">Empieza gratis</button>
-                        </div>
-
+                        <Link href="/registrarse">
+                            <div className="card-actions justify-end">
+                                <button className="btn bg-[#4021C8] text-white w-full rounded-full btn-lg">Empieza gratis</button>
+                            </div>
+                        </Link>
                         <p className='text-[#777777] text-sm'>Pruébalo 14 días. Sin tarjeta de crédito.</p>
-                        
+
                     </div>
                 </div>
                 {/* 2nd */}
-                <div className="card bg-base-100 w-96 mx-auto md:w-80 lg:w-96 shadow-xl">
+                <div className="card bg-base-100 w-96 mx-auto md:w-80 lg:w-96 shadow-xl pt-5 relative">
+                    <h2 className='absolute right-3 top-4 bg-[#4021C8] text-white text-[10px] px-2 py-1 rounded-lg uppercase font-bold'>Recomendado</h2>
                     <div className="p-6 text-start border-b-2">
                         <h2 className="text-2xl font-bold text-black ">Advanced</h2>
                         <p className="text-gray-500 mb-4">Control total de la tesorería de tu negocio</p>
@@ -224,16 +227,17 @@ const Empieza = () => {
                                 <p className='text-[#777777]'>Agente de soporte dedicado a ti</p>
                             </div>
                         </div>
-                        <div className="card-actions justify-end">
-                            <button className="btn bg-[#4021C8] text-white w-full rounded-full btn-lg">Empieza gratis</button>
-                        </div>
-
+                        <Link href="/registrarse">
+                            <div className="card-actions justify-end">
+                                <button className="btn bg-[#4021C8] text-white w-full rounded-full btn-lg">Empieza gratis</button>
+                            </div>
+                        </Link>
                         <p className='text-[#777777] text-sm'>Pruébalo 14 días. Sin tarjeta de crédito.</p>
                     </div>
                 </div>
 
                 {/* 3rd */}
-                <div className="card bg-base-100 w-96 mx-auto md:w-80 lg:w-96 shadow-xl h-full lg:h-[60%]">
+                <div className="card bg-base-100 w-96 mx-auto md:w-80 lg:w-96 shadow-xl pt-5 h-full lg:h-[60%]">
                     <div className="p-6 text-start border-b-2">
                         <h2 className="text-2xl font-bold text-green-600 ">Enterprise</h2>
                         <p className="text-gray-500 mb-4">Plan personalizado</p>
