@@ -21,7 +21,7 @@ const Footer = () => {
                     <Link href="/" className="link link-hover">Funcionalidades</Link>
                     <Link href="#soluciones" className="link link-hover">Soluciones</Link>
                     <Link href="/precios" className="link link-hover">Precios</Link>
-                    <Link href="/" className="link link-hover">Quiénes somos</Link>
+                    <Link href="/sobre-nosotros" className="link link-hover">Quiénes somos</Link>
                     <Link href="/" className="link link-hover">Blog</Link>
                 </nav>
                 <nav className='space-y-2'>
