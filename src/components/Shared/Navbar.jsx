@@ -20,6 +20,12 @@ const Navbar = () => {
         return () => window.removeEventListener('scroll', handleScroll);
     }, []);
 
+    // Function to close modal
+    const closeModal = () => {
+        const modal = document.getElementById('my_modal_3');
+        modal.close();
+    };
+
     const navLink = (
         <>
             <li>
@@ -224,7 +230,7 @@ const Navbar = () => {
                 </div>
             </li>
             <li><a>Casos de éxito</a></li>
-            <li><Link href="/precios">Precios</Link></li>
+            <li><Link onClick={closeModal} href="/precios">Precios</Link></li>
             <li>
                 <div className="dropdown dropdown-hover">
                     <div tabIndex={0} role="button" className="group">
@@ -264,7 +270,7 @@ const Navbar = () => {
             <div className={`navbar z-50 fixed ${isScrolled ? 'bg-white shadow-md' : 'bg-transparent'}`}>
                 <div className="navbar-start md:pl-12 lg:pl-32">
                     <Image src="/logo.png" width="100" height="100" alt="Banktrack logo" className="h-7 w-7" />
-                    <Link href="/" className="ml-2 text-base md:text-xl font-bold">Banktrack</Link>
+                    <Link onClick={closeModal} href="/" className="ml-2 text-base md:text-xl font-bold">Banktrack</Link>
 
                     <div className="navbar-center hidden lg:flex ml-10">
                         <ul className="menu menu-horizontal px-1">
@@ -299,13 +305,14 @@ const Navbar = () => {
                             <div className="h-full w-full relative bg-white flex flex-col justify-between overflow-y-auto">
                                 <div>
                                     {/* .................................................................................... */}
-                                    <div className="flex justify-between items-stretch w-[90%] mx-auto mt-5">
-                                        <div className='flex gap-2  items-center'>
-                                            <Image src="/logo.png" width="100" height="100" alt="Banktrack logo" className="h-8 w-8" />
-                                            <Link href="/" className="ml-2 text-base md:text-xl font-bold">Banktrack</Link>
-                                        </div>
-
-                                        <button className='text-[14px] btn bg-black text-white rounded-full px-4 border-none mr-8'><Link href="/registrarse">Empieza gratis</Link></button>
+                                    <div className="flex justify-between items-center w-[90%] mx-auto mt-5">
+                                        <Link onClick={closeModal} href="/">
+                                            <div className='flex gap-2 items-center '>
+                                                <Image src="/logo.png" width="100" height="100" alt="Banktrack logo" className="h-8 w-8" />
+                                                <span className="ml-2 text-base md:text-xl font-bold">Banktrack</span>
+                                            </div>
+                                        </Link>
+                                        <button className='text-[14px] btn bg-black text-white rounded-full px-4 border-none mr-8'><Link onClick={closeModal} href="/registrarse">Empieza gratis</Link></button>
                                     </div>
                                     {/* .................................................................................... */}
                                     <form method="dialog">
@@ -443,11 +450,11 @@ const Navbar = () => {
                                         </div>
                                         <div className="collapse border-b-2 mb-5 shadow-none rounded-none">
                                             <div className="collapse-title text-2xl font-medium">Casos de éxito</div>
-                                    
+
                                         </div>
                                         <div className="collapse border-b-2 mb-5 shadow-none rounded-none">
-                                            <Link href="/precios"><div className="collapse-title text-2xl font-medium">Precios</div></Link>
-                                
+                                            <Link onClick={closeModal} href="/precios"><div className="collapse-title text-2xl font-medium">Precios</div></Link>
+
                                         </div>
                                         <div className="collapse collapse-arrow border-b-2 mb-5 shadow-none rounded-none">
                                             <input type="checkbox" name="my-accordion-2" />
@@ -473,8 +480,8 @@ const Navbar = () => {
                                     </div>
                                 </div>
                                 <div className='w-[90%] mx-auto mb-20'>
-                                    <Link className="text-[14px] w-full btn bg-[#4021C8] text-white rounded-full px-4 border-none" href="/registrarse">Empieza gratis</Link>
-                                    <Link className="text-[14px] w-full btn btn-ghost rounded-full px-4 mr-3 mt-5" href="/iniciar-sesion">Entrar</Link>
+                                    <Link onClick={closeModal} className="text-[14px] w-full btn bg-[#4021C8] text-white rounded-full px-4 border-none" href="/registrarse">Empieza gratis</Link>
+                                    <Link onClick={closeModal} className="text-[14px] w-full btn btn-ghost rounded-full px-4 mr-3 mt-5" href="/iniciar-sesion">Entrar</Link>
                                 </div>
                             </div>
                         </dialog>
