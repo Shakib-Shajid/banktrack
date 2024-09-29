@@ -1,4 +1,4 @@
-import ToggleOptions from '@/components/CardToggle';
+import ToggleOptions from '@/components/ToggleOptions';
 import React from 'react';
 
 const page = () => {
