@@ -305,7 +305,7 @@ const Navbar = () => {
                                             <Link href="/" className="ml-2 text-base md:text-xl font-bold">Banktrack</Link>
                                         </div>
 
-                                        <button className='text-[14px] btn bg-black text-white rounded-full px-4 border-none mr-8'><Link className="" href="">Empieza gratis</Link></button>
+                                        <button className='text-[14px] btn bg-black text-white rounded-full px-4 border-none mr-8'><Link href="/registrarse">Empieza gratis</Link></button>
                                     </div>
                                     {/* .................................................................................... */}
                                     <form method="dialog">
@@ -446,7 +446,7 @@ const Navbar = () => {
                                     
                                         </div>
                                         <div className="collapse border-b-2 mb-5 shadow-none rounded-none">
-                                            <div className="collapse-title text-2xl font-medium">Precios</div>
+                                            <Link href="/precios"><div className="collapse-title text-2xl font-medium">Precios</div></Link>
                                 
                                         </div>
                                         <div className="collapse collapse-arrow border-b-2 mb-5 shadow-none rounded-none">
