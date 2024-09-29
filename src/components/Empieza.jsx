@@ -68,26 +68,26 @@ const Empieza = () => {
                         </div>
 
                         {/* 6th */}
-                        <div className='flex gap-2'>
-                            <Image src="/price_6.png" width="30" height="30" alt="" className='h-10 w-10' />
+                        <div className='flex gap-2 text-[#888585]'>
+                            <Image src="/price_6.png" width="30" height="30" alt="" className='h-10 w-10 filter grayscale' />
                             <div className='text-start text-sm'>
                                 <h4 className='font-bold'>Conciliación de Facturas con IA</h4>
-                                <p className='text-[#777777]'>Escanea hasta <span className='font-bold underline text-black decoration-2 decoration-orange-300'> 1000 facturas </span>cada trimestre</p>
+                                <p className='text-[#777777]'>Escanea hasta 1000 facturas cada trimestre</p>
                             </div>
                         </div>
 
                         {/* 7th */}
-                        <div className='flex gap-2'>
-                            <Image src="/price_7.png" width="30" height="30" alt="" className='h-10 w-10' />
+                        <div className='flex gap-2 text-[#888585]'>
+                            <Image src="/price_7.png" width="30" height="30" alt="" className='h-10 w-10 filter grayscale' />
                             <div className='text-start text-sm'>
                                 <h4 className='font-bold'>Gestiona varios negocios y entidades</h4>
-                                <p className='text-[#777777]'>Crea hasta <span className='font-bold underline text-black decoration-2 decoration-orange-300'> 3 espacios de trabajo</span></p>
+                                <p className='text-[#777777]'>Crea hasta 3 espacios de trabajo</p>
                             </div>
                         </div>
 
                         {/* 8th */}
-                        <div className='flex gap-2'>
-                            <Image src="/price_8.png" width="30" height="30" alt="" className='h-10 w-10' />
+                        <div className='flex gap-2 text-[#888585]'>
+                            <Image src="/price_8.png" width="30" height="30" alt="" className='h-10 w-10 filter grayscale' />
                             <div className='text-start text-sm'>
                                 <h4 className='font-bold'>Previsiones</h4>
                                 <p className='text-[#777777]'>Escenarios y previsiones ilimitadas</p>
@@ -95,8 +95,8 @@ const Empieza = () => {
                         </div>
 
                         {/* 9th */}
-                        <div className='flex gap-2'>
-                            <Image src="/price_9.png" width="30" height="30" alt="" className='h-10 w-10' />
+                        <div className='flex gap-2 text-[#888585]'>
+                            <Image src="/price_9.png" width="30" height="30" alt="" className='h-10 w-10 filter grayscale' />
                             <div className='text-start text-sm'>
                                 <h4 className='font-bold'>Integraciones adicionales</h4>
                                 <p className='text-[#777777]'>Conecta con más servicios externos</p>
@@ -104,8 +104,8 @@ const Empieza = () => {
                         </div>
 
                         {/* 10th */}
-                        <div className='flex gap-2'>
-                            <Image src="/price_10.png" width="30" height="30" alt="" className='h-10 w-10' />
+                        <div className='flex gap-2 text-[#888585]'>
+                            <Image src="/price_10.png" width="30" height="30" alt="" className='h-10 w-10 filter grayscale' />
                             <div className='text-start text-sm'>
                                 <h4 className='font-bold'>Soporte Premium</h4>
                                 <p className='text-[#777777]'>Agente de soporte dedicado a ti</p>
@@ -114,6 +114,9 @@ const Empieza = () => {
                         <div className="card-actions justify-end">
                             <button className="btn bg-[#4021C8] text-white w-full rounded-full btn-lg">Empieza gratis</button>
                         </div>
+
+                        <p className='text-[#777777] text-sm'>Pruébalo 14 días. Sin tarjeta de crédito.</p>
+                        
                     </div>
                 </div>
                 {/* 2nd */}
@@ -224,6 +227,8 @@ const Empieza = () => {
                         <div className="card-actions justify-end">
                             <button className="btn bg-[#4021C8] text-white w-full rounded-full btn-lg">Empieza gratis</button>
                         </div>
+
+                        <p className='text-[#777777] text-sm'>Pruébalo 14 días. Sin tarjeta de crédito.</p>
                     </div>
                 </div>
 
@@ -255,7 +260,7 @@ const Empieza = () => {
                             </div>
                         </div>
                         <div className="card-actions justify-end">
-                            <button className="btn text-[#4021C8] w-full rounded-full btn-lg border-[#4021C8] border-2 bg-white">Contáctanos</button>
+                            <button className="btn text-[#4021C8] w-full rounded-full btn-lg border-[#4021C8] border-4 bg-white">Contáctanos</button>
                         </div>
                     </div>
                 </div>
