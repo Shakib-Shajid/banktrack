@@ -1,10 +1,12 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import React from 'react';
-import { CiCalendar } from 'react-icons/ci';
 import { RiDoubleQuotesL } from "react-icons/ri";
+import Meeting from '@/components/Meeting';
 
 const page = () => {
+
+  
+
     return (
         <div>
             <div className="hero h-[300px] md:h-[600px] bg-[#FDFAF5] pt-32">
@@ -186,7 +188,7 @@ const page = () => {
                                 <button className="btn bg-gradient-to-r from-red-300 to-red-500 text-white rounded-full btn-lg px-10 w-full border-none"><div>Empieza gratis</div></button>
                             </Link>
 
-                            <button className="btn rounded-full btn-lg px-10 bg-white text-[#4021C8] border-none"><div className='flex gap-1 justify-center items-center'><CiCalendar className='text-[#4021C8] text-3xl w-8' />Agendar demo</div></button>
+                            <Meeting />
                         </div>
                     </div>
                 </div>
@@ -194,6 +196,7 @@ const page = () => {
                     <Image src="/client.png" width="500" height="500" alt="" className='hidden lg:grid w-full rounded-3xl' />
                 </div>
             </div>
+            
         </div>
     );
 };

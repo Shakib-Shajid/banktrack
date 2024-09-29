@@ -40,3 +40,23 @@ body {
 html {
   scroll-behavior: smooth;
 }
+
+/* Add this CSS to your global styles or a relevant CSS file */
+
+#calendly-root {
+  overflow: hidden !important; /* Ensure the root element hides overflow */
+}
+
+.calendly-popup {
+  overflow: hidden !important; /* Hide overflow in the Calendly popup */
+}
+
+/* Hide scrollbar for different browsers */
+.calendly-popup::-webkit-scrollbar {
+  display: none; /* Chrome/Safari */
+}
+
+.calendly-popup {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
