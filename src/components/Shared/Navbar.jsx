@@ -229,7 +229,7 @@ const Navbar = () => {
                     </ul>
                 </div>
             </li>
-            <li><a>Casos de éxito</a></li>
+            <li><Link onClick={closeModal} href="/casos-exito">Casos de éxito</Link></li>
             <li><Link onClick={closeModal} href="/precios">Precios</Link></li>
             <li>
                 <div className="dropdown dropdown-hover">
@@ -375,6 +375,7 @@ const Navbar = () => {
                                                 </div>
                                             </div>
                                         </div>
+
                                         <div className="collapse collapse-arrow border-b-2 mb-5 shadow-none rounded-none">
                                             <input type="checkbox" name="my-accordion-2" />
                                             <div className="collapse-title text-2xl font-medium">¿Para quién es?</div>
@@ -448,10 +449,11 @@ const Navbar = () => {
                                                 <p className='ml-1 mt-5 text-[#a29e9e]'>Estos son solo algunos ejemplos. Nos adaptamos a cualquier negocio. <span className='underline text-blue-600'>Ver más...</span></p>
                                             </div>
                                         </div>
-                                        <div className="collapse border-b-2 mb-5 shadow-none rounded-none">
-                                            <div className="collapse-title text-2xl font-medium">Casos de éxito</div>
 
+                                        <div className="collapse border-b-2 mb-5 shadow-none rounded-none">
+                                            <Link href="/casos-exito" onClick={closeModal}><div className="collapse-title text-2xl font-medium">Casos de éxito</div></Link>
                                         </div>
+
                                         <div className="collapse border-b-2 mb-5 shadow-none rounded-none">
                                             <Link onClick={closeModal} href="/precios"><div className="collapse-title text-2xl font-medium">Precios</div></Link>
 
