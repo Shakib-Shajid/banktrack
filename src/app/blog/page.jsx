@@ -7,8 +7,8 @@ const page = () => {
             <div className='w-[90%] md:w-[80%] mx-auto py-20'>
                 <div className='pt-10'>
                     <h3 className='text-6xl font-bold'>Blog</h3>
-                    <div className='w-full flex justify-evenly gap-20 my-10'>
-                        <Image src="/blog_1.png" width="300" height="300" alt="" className='w-full rounded-2xl h-[50vh] shadow-2xl' />
+                    <div className='w-full hidden lg:flex lg:justify-evenly gap-20 my-10'>
+                        <Image src="/blog_1.png" width="300" height="300" alt="" className='w-full rounded-2xl h-[50vh] shadow-2xl hidden lg:grid' />
                         <div className='w-[70%] pt-5 hidden lg:grid'>
                             <p className='text-[#4021C8] font-bold'>Banktrack</p>
                             <h3 className='text-4xl font-bold leading-normal'>Cómo tener una tesorería centralizada en 2024</h3>
@@ -17,7 +17,26 @@ const page = () => {
                         </div>
                     </div>
 
-                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
+                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 mt-10 lg:mt-20">
+
+                        <div className="card bg-base-100 lg:w-96 shadow-xl lg:hidden">
+                            <figure>
+                                <Image src="/blog_1.png" width="300" height="300" alt="" className="w-full h-64 md:h-48" />
+                            </figure>
+                            <div className="card-body">
+                                <p className="font-bold text-[#4021C8]">Banktrack</p>
+                                <h2 className="card-title min-h-[64px]">Cómo tener una tesorería centralizada en 2024</h2>
+                                <p className="text-[#797979] line-clamp-3">
+                                    Centralizar la tesorería te permitirá mejorar el control financiero, optimizar recursos y aumentar la eficiencia en la gestión de tu empresa.
+                                </p>
+                                <div className="card-actions justify-end text-sm text-[#b4b3b3]">
+                                    <p>Carlos P.-26 sept 2024</p>
+                                </div>
+                            </div>
+                        </div>
+
+
+
                         {/* 1st Card */}
                         <div className="card bg-base-100 lg:w-96 shadow-xl">
                             <figure>
@@ -51,7 +70,7 @@ const page = () => {
                                 </div>
                             </div>
                         </div>
-                        
+
                         {/* 3rd Card */}
                         <div className="card bg-base-100 lg:w-96 shadow-xl">
                             <figure>
@@ -61,7 +80,7 @@ const page = () => {
                                 <p className="font-bold text-[#4021C8]">Banktrack</p>
                                 <h2 className="card-title min-h-[64px]">Cómo tener control de costes y gastos en tu restaurante</h2>
                                 <p className="text-[#797979] line-clamp-3">
-                                Optimiza inventarios y usa herramientas financieras para controlar los costes y mantener tu restaurante rentable.
+                                    Optimiza inventarios y usa herramientas financieras para controlar los costes y mantener tu restaurante rentable.
                                 </p>
                                 <div className="card-actions justify-end text-sm text-[#b4b3b3]">
                                     <p>Carlos P. - 25 sept 2024</p>
@@ -101,7 +120,7 @@ const page = () => {
                                 </div>
                             </div>
                         </div>
-                        
+
                         {/* 3rd Card */}
                         <div className="card bg-base-100 lg:w-96 shadow-xl">
                             <figure>
@@ -111,7 +130,7 @@ const page = () => {
                                 <p className="font-bold text-[#4021C8]">Banktrack</p>
                                 <h2 className="card-title min-h-[64px]">Cómo tener control de costes y gastos en tu restaurante</h2>
                                 <p className="text-[#797979] line-clamp-3">
-                                Optimiza inventarios y usa herramientas financieras para controlar los costes y mantener tu restaurante rentable.
+                                    Optimiza inventarios y usa herramientas financieras para controlar los costes y mantener tu restaurante rentable.
                                 </p>
                                 <div className="card-actions justify-end text-sm text-[#b4b3b3]">
                                     <p>Carlos P. - 25 sept 2024</p>
