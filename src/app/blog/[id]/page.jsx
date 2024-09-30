@@ -11,19 +11,19 @@ import { FaLinkedinIn } from "react-icons/fa6";
 const page = () => {
     return (
         <div>
-            <div className='w-[60%] mx-auto pt-40'>
+            <div className='w-[90%] md:w-[80%] lg:w-[60%] mx-auto pt-40'>
                 <p className='text-xl text-[#4021C8] uppercase'>Banktrack</p>
-                <h2 className='text-5xl font-bold'>Cómo tener control de costes <br /> y gastos en tu restaurante</h2>
+                <h2 className='text-4xl lg:text-5xl font-bold'>Cómo tener control de costes <br className='hidden lg:grid' /> y gastos en tu restaurante</h2>
                 <div className='flex gap-2 items-center my-2'>
                     <Image src="/author.png" width="50" height="50" alt="" className='rounded-full' />
                     <p><span className='font-bold mr-2'>Carlos P. </span><span className='text-[#b4b3b3]'> 25 sept 2024</span></p>
                 </div>
             </div>
-            <div className='w-[70%] mx-auto'>
+            <div className='w-[90%] lg:w-[70%] mx-auto'>
                 <Image src="/blog_detail.png" width="500" height="500" alt="" className='w-full rounded-2xl' />
             </div>
 
-            <div className='w-[60%] mx-auto my-10'>
+            <div className='w-[90%] lg:w-[60%] mx-auto my-10'>
                 <div className="collapse collapse-arrow bg-white shadow-xl text-[#888585]">
                     <input type="checkbox" name="my-accordion-2" />
                     <div className="collapse-title text-xl font-medium text-black">Tabla de contenidos</div>
@@ -57,7 +57,7 @@ const page = () => {
                     </div>
                 </div>
 
-                <p>Te explicamos cómo puedes tener el control de costes y gastos en tu restaurante con 5 estrategias</p>
+                <p className='mt-5'>Te explicamos cómo puedes tener el control de costes y gastos en tu restaurante con 5 estrategias</p>
                 <br />
                 <ol className='list-decimal ml-8'>
                     <li>Realizar auditorías de costes regulares</li>
@@ -137,16 +137,18 @@ const page = () => {
 
                 </ol>
 
-                <div className='h-[30vh] bg-[#4021C8] p-4 flex flex-col lg:flex-row items-center rounded-2xl'>
-                    <div className='px-10 lg:w-[70%]'>
+                <div className='h-[45vh] md:h-[30vh] lg:h-[40vh] bg-[#4021C8] p-4 flex flex-col lg:flex-row lg:items-center rounded-2xl md:py-14 lg:py-0'>
+                    <div className='p-5 lg:px-10 w-full lg:w-[70%] '>
                         <h2 className='text-4xl font-bold text-white'>Prueba Banktrack GRATIS</h2>
-                        <p className='text-xl w-[80%] my-3 text-[#b5b0b0]'>Conecta todos tus bancos y recibe informes configurables y alertas inteligentes en tu canal favorito</p>
+                        <p className='text-xl lg:w-[80%] my-3 text-[#b5b0b0]'>Conecta todos tus bancos y recibe informes configurables y alertas inteligentes en tu canal favorito</p>
                     </div>
-                    <Link href="/registrarse"><button className='btn btn-lg bg-white rounded-full text-[#4021C8] shadow-xl'>Crear cuenta AHORA</button></Link>
+                    <div className='px-5 w-full lg:w-[35%]'>
+                        <Link href="/registrarse"><button className='btn btn-lg bg-white rounded-full text-[#4021C8] shadow-xl w-full'>Crear cuenta AHORA</button></Link>
+                    </div>
                 </div>
 
                 <div className='text-xl my-10 relative'>
-                    <Image src="/arrow_1.png" width="50" height="50" alt="" className='absolute -left-14 top-5' />
+                    <Image src="/arrow_1.png" width="50" height="50" alt="" className='absolute -left-14 top-5 hidden lg:grid' />
 
                     <h3 className='text-[#4021C8] font-bold mb-5'>Compartir este artículo</h3>
                     <div className='flex gap-2 my-3'>
