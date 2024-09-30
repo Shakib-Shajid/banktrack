@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Link from 'next/link';
 import React from 'react';
 
 const page = () => {
@@ -8,10 +9,10 @@ const page = () => {
                 <div className='pt-10'>
                     <h3 className='text-6xl font-bold'>Blog</h3>
                     <div className='w-full hidden lg:flex lg:justify-evenly gap-20 my-10'>
-                        <Image src="/blog_1.png" width="300" height="300" alt="" className='w-full rounded-2xl h-[50vh] shadow-2xl hidden lg:grid' />
+                        <Link href="/blog/title" className='w-full  h-[50vh] shadow-2xl hidden lg:grid'> <Image src="/blog_1.png" width="300" height="300" alt="" className='w-full rounded-2xl'/></Link>
                         <div className='w-[70%] pt-5 hidden lg:grid'>
                             <p className='text-[#4021C8] font-bold'>Banktrack</p>
-                            <h3 className='text-4xl font-bold leading-normal'>Cómo tener una tesorería centralizada en 2024</h3>
+                            <Link href="/blog/title"> <h3 className='text-4xl font-bold leading-normal'>Cómo tener una tesorería centralizada en 2024</h3></Link>
                             <p className='text-xl text-[#797979] leading-loose'>Centralizar la tesorería te permitirá mejorar el control financiero, optimizar recursos y aumentar la eficiencia en la gestión de tu empresa.</p>
                             <p className='text-[#b4b3b3] my-5 text-sm'>Carlos P.-26 sept 2024</p>
                         </div>
@@ -21,11 +22,11 @@ const page = () => {
 
                         <div className="card bg-base-100 lg:w-96 shadow-xl lg:hidden">
                             <figure>
-                                <Image src="/blog_1.png" width="300" height="300" alt="" className="w-full h-64 md:h-48" />
+                                <Link href="/blog/title"><Image src="/blog_1.png" width="300" height="300" alt="" className="w-full h-64 md:h-48" /></Link>
                             </figure>
                             <div className="card-body">
                                 <p className="font-bold text-[#4021C8]">Banktrack</p>
-                                <h2 className="card-title min-h-[64px]">Cómo tener una tesorería centralizada en 2024</h2>
+                                <Link href="/blog/title"><h2 className="card-title min-h-[64px]">Cómo tener una tesorería centralizada en 2024</h2></Link>
                                 <p className="text-[#797979] line-clamp-3">
                                     Centralizar la tesorería te permitirá mejorar el control financiero, optimizar recursos y aumentar la eficiencia en la gestión de tu empresa.
                                 </p>
@@ -40,11 +41,11 @@ const page = () => {
                         {/* 1st Card */}
                         <div className="card bg-base-100 lg:w-96 shadow-xl">
                             <figure>
-                                <Image src="/blog_2.png" width="300" height="300" alt="" className="w-full" />
+                                <Link href="/blog/title"><Image src="/blog_2.png" width="300" height="300" alt="" className="w-full" /></Link>
                             </figure>
                             <div className="card-body">
                                 <p className="font-bold text-[#4021C8]">Gastos</p>
-                                <h2 className="card-title min-h-[64px]">Mejor aplicación de gestión de suscripciones</h2>
+                                <Link href="/blog/title"><h2 className="card-title min-h-[64px]">Mejor aplicación de gestión de suscripciones</h2></Link>
                                 <p className="text-[#797979] line-clamp-3">
                                     Gestionar tantas suscripciones puede ser un caos. Con una buena app de gestión de suscripciones, podrás controlar tus pagos, evitar renovaciones inesperadas y ahorrar dinero.
                                 </p>
@@ -57,11 +58,11 @@ const page = () => {
                         {/* 2nd Card */}
                         <div className="card bg-base-100 lg:w-96 shadow-xl">
                             <figure>
-                                <Image src="/blog_3.png" width="300" height="300" alt="" className="w-full" />
+                                <Link href="/blog/title"><Image src="/blog_3.png" width="300" height="300" alt="" className="w-full" /></Link>
                             </figure>
                             <div className="card-body">
                                 <p className="font-bold text-[#4021C8]">Empresa</p>
-                                <h2 className="card-title min-h-[64px]">5 gastos que tiene una empresa con un trabajador de baja</h2>
+                                <Link href="/blog/title"><h2 className="card-title min-h-[64px]">5 gastos que tiene una empresa con un trabajador de baja</h2></Link>
                                 <p className="text-[#797979] line-clamp-3">
                                     Cuando un trabajador está de baja, los costes para la empresa van más allá de su salario. Te contamos cuáles son los principales gastos.
                                 </p>
@@ -74,11 +75,11 @@ const page = () => {
                         {/* 3rd Card */}
                         <div className="card bg-base-100 lg:w-96 shadow-xl">
                             <figure>
-                                <Image src="/blog_4.png" width="300" height="300" alt="" className="w-full" />
+                                 <Link href="/blog/title"><Image src="/blog_4.png" width="300" height="300" alt="" className="w-full" /></Link>
                             </figure>
                             <div className="card-body">
                                 <p className="font-bold text-[#4021C8]">Banktrack</p>
-                                <h2 className="card-title min-h-[64px]">Cómo tener control de costes y gastos en tu restaurante</h2>
+                                 <Link href="/blog/title"><h2 className="card-title min-h-[64px]">Cómo tener control de costes y gastos en tu restaurante</h2></Link>
                                 <p className="text-[#797979] line-clamp-3">
                                     Optimiza inventarios y usa herramientas financieras para controlar los costes y mantener tu restaurante rentable.
                                 </p>
@@ -90,11 +91,11 @@ const page = () => {
                         {/* 1st Card */}
                         <div className="card bg-base-100 lg:w-96 shadow-xl">
                             <figure>
-                                <Image src="/blog_2.png" width="300" height="300" alt="" className="w-full" />
+                                 <Link href="/blog/title"><Image src="/blog_2.png" width="300" height="300" alt="" className="w-full" /></Link>
                             </figure>
                             <div className="card-body">
                                 <p className="font-bold text-[#4021C8]">Gastos</p>
-                                <h2 className="card-title min-h-[64px]">Mejor aplicación de gestión de suscripciones</h2>
+                                 <Link href="/blog/title"><h2 className="card-title min-h-[64px]">Mejor aplicación de gestión de suscripciones</h2></Link>
                                 <p className="text-[#797979] line-clamp-3">
                                     Gestionar tantas suscripciones puede ser un caos. Con una buena app de gestión de suscripciones, podrás controlar tus pagos, evitar renovaciones inesperadas y ahorrar dinero.
                                 </p>
@@ -107,11 +108,11 @@ const page = () => {
                         {/* 2nd Card */}
                         <div className="card bg-base-100 lg:w-96 shadow-xl">
                             <figure>
-                                <Image src="/blog_3.png" width="300" height="300" alt="" className="w-full" />
+                                 <Link href="/blog/title"><Image src="/blog_3.png" width="300" height="300" alt="" className="w-full" /></Link>
                             </figure>
                             <div className="card-body">
                                 <p className="font-bold text-[#4021C8]">Empresa</p>
-                                <h2 className="card-title min-h-[64px]">5 gastos que tiene una empresa con un trabajador de baja</h2>
+                                 <Link href="/blog/title"><h2 className="card-title min-h-[64px]">5 gastos que tiene una empresa con un trabajador de baja</h2></Link>
                                 <p className="text-[#797979] line-clamp-3">
                                     Cuando un trabajador está de baja, los costes para la empresa van más allá de su salario. Te contamos cuáles son los principales gastos.
                                 </p>
@@ -124,11 +125,11 @@ const page = () => {
                         {/* 3rd Card */}
                         <div className="card bg-base-100 lg:w-96 shadow-xl">
                             <figure>
-                                <Image src="/blog_4.png" width="300" height="300" alt="" className="w-full" />
+                                 <Link href="/blog/title"><Image src="/blog_4.png" width="300" height="300" alt="" className="w-full" /></Link>
                             </figure>
                             <div className="card-body">
                                 <p className="font-bold text-[#4021C8]">Banktrack</p>
-                                <h2 className="card-title min-h-[64px]">Cómo tener control de costes y gastos en tu restaurante</h2>
+                                 <Link href="/blog/title"><h2 className="card-title min-h-[64px]">Cómo tener control de costes y gastos en tu restaurante</h2></Link>
                                 <p className="text-[#797979] line-clamp-3">
                                     Optimiza inventarios y usa herramientas financieras para controlar los costes y mantener tu restaurante rentable.
                                 </p>

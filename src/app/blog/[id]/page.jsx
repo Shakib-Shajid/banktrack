@@ -152,9 +152,9 @@ const page = () => {
 
                     <h3 className='text-[#4021C8] font-bold mb-5'>Compartir este artículo</h3>
                     <div className='flex gap-2 my-3'>
-                        <FaXTwitter className='bg-violet-600 text-white p-1 rounded-md text-2xl' />
-                        <LiaFacebookF className='bg-violet-600 text-white p-1 rounded-md text-2xl' />
-                        <FaLinkedinIn className='bg-violet-600 text-white p-1 rounded-md text-2xl' />
+                        <Link href="https://x.com/"> <FaXTwitter className='bg-violet-600 text-white p-1 rounded-md text-2xl' /></Link>
+                        <Link href="https://www.facebook.com/"> <LiaFacebookF className='bg-violet-600 text-white p-1 rounded-md text-2xl' /></Link>
+                        <Link href="https://www.linkedin.com/"> <FaLinkedinIn className='bg-violet-600 text-white p-1 rounded-md text-2xl' /></Link>
                     </div>
 
                 </div>

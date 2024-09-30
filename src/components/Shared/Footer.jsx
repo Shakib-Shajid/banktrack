@@ -31,9 +31,9 @@ const Footer = () => {
                 </nav>
                 <nav className='space-y-2'>
                     <h6 className="footer-title text-[#888585]">Artículos destacados</h6>
-                    <a className="link link-hover">Software de Tesorería</a>
-                    <a className="link link-hover">Software Gestión de Gastos</a>
-                    <a className="link link-hover">Control de Gastos en Pareja</a>
+                    <Link href="/blog/title" className="link link-hover">Software de Tesorería</Link>
+                    <Link href="/blog/title" className="link link-hover">Software Gestión de Gastos</Link>
+                    <Link href="/blog/title" className="link link-hover">Control de Gastos en Pareja</Link>
                 </nav>
                 <nav className='space-y-2'>
                     <h6 className="footer-title text-[#888585]">Síguenos</h6>
