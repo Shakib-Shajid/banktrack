@@ -11,7 +11,7 @@ import Link from 'next/link';
 const Footer = () => {
     return (
         <div className='bg-[#FDFAF5]'>
-            <footer className="footer flex flex-col lg:grid lg:grid-cols-4 text-base-content p-5 md:p-10 w-[90%] mx-auto relative">
+            <footer className="footer flex flex-col lg:grid lg:grid-cols-4 text-base-content p-5 md:p-10 w-[90%] mx-auto relative border-t-2">
                 <aside>
                     <Image src="/logo.png" width="70" height="70" alt="" className='absolute right-0 lg:relative' />
                 </aside>
@@ -22,7 +22,7 @@ const Footer = () => {
                     <Link href="#soluciones" className="link link-hover">Soluciones</Link>
                     <Link href="/precios" className="link link-hover">Precios</Link>
                     <Link href="/sobre-nosotros" className="link link-hover">Quiénes somos</Link>
-                    <Link href="/" className="link link-hover">Blog</Link>
+                    <Link href="/blog" className="link link-hover">Blog</Link>
                 </nav>
                 <nav className='space-y-2'>
                     <h6 className="footer-title text-[#888585]">Soporte</h6>
