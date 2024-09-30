@@ -69,10 +69,10 @@ const page = () => {
                 <br />
                 <p>Mantener un restaurante rentable no es tarea fácil. </p>
                 <br />
-                <p>Con márgenes de ganancia ajustados, la competencia en aumento y los precios de los suministros en constante cambio, controlar los costes y gastos se convierte en una prioridad absoluta. Pero, ¿cómo hacerlo de manera efectiva? </p>
+                <p>Con márgenes de ganancia ajustados, la competencia en aumento y lovervs precios de los suministros en constante cambio, controlar los costes y gastos se convierte en una prioridad absoluta. Pero, ¿cómo hacerlo de manera efectiva? </p>
                 <br />
                 <p>En este artículo, te contamos todo lo que necesitas saber para mantener tus finanzas en orden y mejorar la rentabilidad de tu restaurante en 2024. </p>
-
+                <br />
                 <h2 className='text-xl font-bold'>5 Estrategias para Controlar los Costes en un Restaurante</h2>
                 <br />
                 <p>Ahora que ya conoces las principales áreas de coste en un restaurante, veamos algunas estrategias prácticas para mantener estos costes bajo control.</p>
@@ -172,11 +172,11 @@ const page = () => {
                         {/* 1st Card */}
                         <div className="card bg-base-100 lg:w-96 shadow-xl">
                             <figure>
-                                <Image src="/blog_2.png" width="300" height="300" alt="" className="w-full" />
+                                <Link href="/blog/title"><Image src="/blog_2.png" width="300" height="300" alt="" className="w-full" /></Link>
                             </figure>
                             <div className="card-body">
                                 <p className="font-bold text-[#4021C8]">Gastos</p>
-                                <h2 className="card-title min-h-[64px]">Mejor aplicación de gestión de suscripciones</h2>
+                                <Link href="/blog/title"><h2 className="card-title min-h-[64px]">Mejor aplicación de gestión de suscripciones</h2></Link>
                                 <p className="text-[#797979] line-clamp-3">
                                     Gestionar tantas suscripciones puede ser un caos. Con una buena app de gestión de suscripciones, podrás controlar tus pagos, evitar renovaciones inesperadas y ahorrar dinero.
                                 </p>
@@ -189,11 +189,11 @@ const page = () => {
                         {/* 2nd Card */}
                         <div className="card bg-base-100 lg:w-96 shadow-xl">
                             <figure>
-                                <Image src="/blog_3.png" width="300" height="300" alt="" className="w-full" />
+                                <Link href="/blog/title"><Image src="/blog_3.png" width="300" height="300" alt="" className="w-full" /></Link>
                             </figure>
                             <div className="card-body">
                                 <p className="font-bold text-[#4021C8]">Empresa</p>
-                                <h2 className="card-title min-h-[64px]">5 gastos que tiene una empresa con un trabajador de baja</h2>
+                                <Link href="/blog/title"><h2 className="card-title min-h-[64px]">5 gastos que tiene una empresa con un trabajador de baja</h2></Link>
                                 <p className="text-[#797979] line-clamp-3">
                                     Cuando un trabajador está de baja, los costes para la empresa van más allá de su salario. Te contamos cuáles son los principales gastos.
                                 </p>
@@ -206,11 +206,11 @@ const page = () => {
                         {/* 3rd Card */}
                         <div className="card bg-base-100 lg:w-96 shadow-xl">
                             <figure>
-                                <Image src="/blog_4.png" width="300" height="300" alt="" className="w-full" />
+                                <Link href="/blog/title"><Image src="/blog_4.png" width="300" height="300" alt="" className="w-full" /></Link>
                             </figure>
                             <div className="card-body">
                                 <p className="font-bold text-[#4021C8]">Banktrack</p>
-                                <h2 className="card-title min-h-[64px]">Cómo tener control de costes y gastos en tu restaurante</h2>
+                                <Link href="/blog/title"><h2 className="card-title min-h-[64px]">Cómo tener control de costes y gastos en tu restaurante</h2></Link>
                                 <p className="text-[#797979] line-clamp-3">
                                     Optimiza inventarios y usa herramientas financieras para controlar los costes y mantener tu restaurante rentable.
                                 </p>
