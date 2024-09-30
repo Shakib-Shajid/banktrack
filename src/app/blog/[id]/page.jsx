@@ -2,6 +2,11 @@ import Data from '@/components/Data';
 import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
+import { FaXTwitter } from "react-icons/fa6";
+import { LiaFacebookF } from "react-icons/lia";
+import { FaLinkedinIn } from "react-icons/fa6";
+
+
 
 const page = () => {
     return (
@@ -140,6 +145,76 @@ const page = () => {
                     <Link href="/registrarse"><button className='btn btn-lg bg-white rounded-full text-[#4021C8] shadow-xl'>Crear cuenta AHORA</button></Link>
                 </div>
 
+                <div className='text-xl my-10 relative'>
+                    <Image src="/arrow_1.png" width="50" height="50" alt="" className='absolute -left-14 top-5' />
+
+                    <h3 className='text-[#4021C8] font-bold mb-5'>Compartir este artículo</h3>
+                    <div className='flex gap-2 my-3'>
+                        <FaXTwitter className='bg-violet-600 text-white p-1 rounded-md text-2xl' />
+                        <LiaFacebookF className='bg-violet-600 text-white p-1 rounded-md text-2xl' />
+                        <FaLinkedinIn className='bg-violet-600 text-white p-1 rounded-md text-2xl' />
+                    </div>
+
+                </div>
+
+            </div>
+            <div className='bg-[#FDFAF5] py-20'>
+                <div className='w-[80%] mx-auto'>
+                    <h3 className='text-4xl font-bold'>Artículos relacionados</h3>
+
+                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 mt-10 lg:mt-20 ">
+                        {/* 1st Card */}
+                        <div className="card bg-base-100 lg:w-96 shadow-xl">
+                            <figure>
+                                <Image src="/blog_2.png" width="300" height="300" alt="" className="w-full" />
+                            </figure>
+                            <div className="card-body">
+                                <p className="font-bold text-[#4021C8]">Gastos</p>
+                                <h2 className="card-title min-h-[64px]">Mejor aplicación de gestión de suscripciones</h2>
+                                <p className="text-[#797979] line-clamp-3">
+                                    Gestionar tantas suscripciones puede ser un caos. Con una buena app de gestión de suscripciones, podrás controlar tus pagos, evitar renovaciones inesperadas y ahorrar dinero.
+                                </p>
+                                <div className="card-actions justify-end text-sm text-[#b4b3b3]">
+                                    <p>Carlos P. - 25 sept 2024</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        {/* 2nd Card */}
+                        <div className="card bg-base-100 lg:w-96 shadow-xl">
+                            <figure>
+                                <Image src="/blog_3.png" width="300" height="300" alt="" className="w-full" />
+                            </figure>
+                            <div className="card-body">
+                                <p className="font-bold text-[#4021C8]">Empresa</p>
+                                <h2 className="card-title min-h-[64px]">5 gastos que tiene una empresa con un trabajador de baja</h2>
+                                <p className="text-[#797979] line-clamp-3">
+                                    Cuando un trabajador está de baja, los costes para la empresa van más allá de su salario. Te contamos cuáles son los principales gastos.
+                                </p>
+                                <div className="card-actions justify-end text-sm text-[#b4b3b3]">
+                                    <p>Carlos P. - 25 sept 2024</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        {/* 3rd Card */}
+                        <div className="card bg-base-100 lg:w-96 shadow-xl">
+                            <figure>
+                                <Image src="/blog_4.png" width="300" height="300" alt="" className="w-full" />
+                            </figure>
+                            <div className="card-body">
+                                <p className="font-bold text-[#4021C8]">Banktrack</p>
+                                <h2 className="card-title min-h-[64px]">Cómo tener control de costes y gastos en tu restaurante</h2>
+                                <p className="text-[#797979] line-clamp-3">
+                                    Optimiza inventarios y usa herramientas financieras para controlar los costes y mantener tu restaurante rentable.
+                                </p>
+                                <div className="card-actions justify-end text-sm text-[#b4b3b3]">
+                                    <p>Carlos P. - 25 sept 2024</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
             <Data />
         </div>
