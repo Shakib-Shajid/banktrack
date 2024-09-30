@@ -146,7 +146,7 @@ const page = () => {
                     </div>
                     <div className='lg:w-[40%]'>
                         <Link href="/registrarse" ><button className='btn btn-lg w-full bg-white rounded-full text-[#4021C8] shadow-xl'>Crear cuenta AHORA</button></Link>
-                    </div>
+                    </div> 
                 </div>
 
 
