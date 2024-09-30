@@ -137,15 +137,19 @@ const page = () => {
 
                 </ol>
 
-                <div className='h-[45vh] md:h-[30vh] lg:h-[40vh] bg-[#4021C8] p-4 flex flex-col lg:flex-row lg:items-center rounded-2xl md:py-14 lg:py-0'>
-                    <div className='p-5 lg:px-10 w-full lg:w-[70%] '>
+
+
+                <div className='bg-[#4021C8] rounded-xl flex flex-col lg:flex-row lg:gap-20 p-10 lg:p-16 lg:items-center md:w-[94%] lg:w-full mx-auto'>
+                    <div className='lg:w-[80%]'>
                         <h2 className='text-4xl font-bold text-white'>Prueba Banktrack GRATIS</h2>
-                        <p className='text-xl lg:w-[80%] my-3 text-[#b5b0b0]'>Conecta todos tus bancos y recibe informes configurables y alertas inteligentes en tu canal favorito</p>
+                        <p className='text-xl text-[#b5b0b0] my-5'>Conecta todos tus bancos y recibe informes configurables y alertas inteligentes en tu canal favorito</p>
                     </div>
-                    <div className='px-5 w-full lg:w-[35%]'>
-                        <Link href="/registrarse"><button className='btn btn-lg bg-white rounded-full text-[#4021C8] shadow-xl w-full'>Crear cuenta AHORA</button></Link>
+                    <div className='lg:w-[40%]'>
+                        <Link href="/registrarse" ><button className='btn btn-lg w-full bg-white rounded-full text-[#4021C8] shadow-xl'>Crear cuenta AHORA</button></Link>
                     </div>
                 </div>
+
+
 
                 <div className='text-xl my-10 relative'>
                     <Image src="/arrow_1.png" width="50" height="50" alt="" className='absolute -left-14 top-5 hidden lg:grid' />
