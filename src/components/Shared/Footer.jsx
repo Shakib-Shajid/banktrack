@@ -72,7 +72,7 @@ const Footer = () => {
                         <Link href="/terms">
                             Términos y condiciones
                         </Link>
-                        <Link href="/">
+                        <Link href="/privacy">
                             Política de privacidad
                         </Link>
                         <Link href="/">
