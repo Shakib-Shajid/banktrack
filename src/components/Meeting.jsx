@@ -23,7 +23,7 @@ const Meeting = () => {
                             Agendar demo
                         </div>
                     }
-                    className="btn border-none rounded-full btn-lg px-10 bg-white text-[#4021C8]"
+                    className="btn w-full border-none rounded-full btn-lg px-10 bg-white text-[#4021C8]"
                 />
             )}
 
