@@ -69,7 +69,7 @@ const Footer = () => {
                 </div>
                 <nav className="lg:place-self-center lg:justify-self-end">
                     <div className="flex flex-col lg:grid lg:grid-flow-col gap-4">
-                        <Link href="/">
+                        <Link href="/terms">
                             Términos y condiciones
                         </Link>
                         <Link href="/">
