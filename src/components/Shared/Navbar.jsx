@@ -239,7 +239,7 @@ const Navbar = () => {
                     </div>
                     <ul tabIndex={0} className="dropdown-content menu bg-base-100 rounded-box z-[1] mt-40 w-[400%] p-2 shadow py-5">
                         <div className='flex gap-5'>
-                            <li>
+                            <li><Link href="/video-academy">
                                 <div className='text-sm flex gap-4'>
                                     <Image src="/video.png" width="70" height="70" alt="" />
                                     <div>
@@ -247,7 +247,7 @@ const Navbar = () => {
                                         <p className='text-[#787474]'>Aprende a usar Banktrack <br /> con vídeos rápidos.</p>
                                     </div>
                                 </div>
-                            </li>
+                            </Link></li>
 
                             <li>
                                 <div className='text-sm flex gap-4'>
