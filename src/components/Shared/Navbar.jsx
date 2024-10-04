@@ -462,13 +462,15 @@ const Navbar = () => {
                                             <input type="checkbox" name="my-accordion-2" />
                                             <div className="collapse-title text-2xl font-medium">Recursos</div>
                                             <div className="collapse-content">
-                                                <div className='mt-5 text-base flex gap-4'>
-                                                    <Image src="/video.png" width="70" height="70" alt="" />
-                                                    <div>
-                                                        <h2>Vídeo Academy</h2>
-                                                        <p className='text-[#787474]'>Aprende a usar Banktrack <br /> con vídeos rápidos.</p>
+                                                <Link href="/video-academy" onClick={closeModal}>
+                                                    <div className='mt-5 text-base flex gap-4'>
+                                                        <Image src="/video.png" width="70" height="70" alt="" />
+                                                        <div>
+                                                            <h2>Vídeo Academy</h2>
+                                                            <p className='text-[#787474]'>Aprende a usar Banktrack <br /> con vídeos rápidos.</p>
+                                                        </div>
                                                     </div>
-                                                </div>
+                                                </Link>
                                                 <div className='mt-5 text-base flex gap-4'>
                                                     <Image src="/question.png" width="70" height="70" alt="" />
                                                     <div>

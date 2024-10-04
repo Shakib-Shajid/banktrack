@@ -74,7 +74,7 @@ const Page = () => {
     };
 
     return (
-        <div className='py-10'>
+        <div >
             {/* Hero Section */}
             <div className="hero h-[300px] md:h-[300px] bg-[#FDFAF5] pt-32 md:pt-96">
                 <div className="hero-content text-center -mt-20 md:-mt-72">
