@@ -1,6 +1,9 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import React from 'react';
+import { IoMdCheckmark } from "react-icons/io";
+import { TiInfinity } from "react-icons/ti";
+import { RxCross2 } from "react-icons/rx";
+
 
 const Empieza = () => {
     return (
@@ -270,8 +273,140 @@ const Empieza = () => {
                 </div>
 
             </div>
+
+
+            {/* table */}
+            <div className="overflow-x-auto w-[80%] mx-auto pt-5">
+                <table className="table">
+                    {/* head */}
+                    <thead>
+                        <tr className="text-center">
+                            <th>Comparación <br />
+                            Todos los detalles comparados</th>
+                            <th>Starter <br />
+                            17€/mes (Pago anual)</th>
+                            <th>Advanced <br />
+                            84€/mes (Pago anual)</th>
+                        </tr>
+                    </thead>
+                    {/* <p className="bg-gray-300">Conexiones bancarias</p> */}
+                    <tbody>
+                        {/* row 1 */}
+                        <tr>
+                            <td>Bancos sincronizados</td>
+                            <td>10</td>
+                            <td>25</td>
+                        </tr>
+                        {/* row 2 */}
+                        <tr>
+                            <td>Uso empresarial</td>
+                            <td><IoMdCheckmark /></td>
+                            <td><IoMdCheckmark /></td>
+                        </tr>
+                        {/* row 3 */}
+                        <tr>
+                            <td>Sugerencias de categorización</td>
+                            <td><IoMdCheckmark /></td>
+                            <td><IoMdCheckmark /></td>
+                        </tr>
+                        {/* row 4 */}
+                        <tr>
+                            <td>Reglas automáticas</td>
+                            <td><TiInfinity/></td>
+                            <td><TiInfinity/></td>
+                        </tr>
+                        {/* row 5 */}
+                        <tr>
+                            <td>Historial de transacciones</td>
+                            <td><TiInfinity/></td>
+                            <td><TiInfinity/></td>
+                        </tr>
+                        {/* row 6 */}
+                        <tr>
+                            <td>Exportación de transacciones</td>
+                            <td>PDF, CSV y JSON</td>
+                            <td>PDF, CSV y JSON</td>
+                        </tr>
+                        {/* row 7 */}
+                        <tr>
+                            <td>Importación de transacciones</td>
+                            <td>Autoservicio</td>
+                            <td>Autoservicio o OCR asistido</td>
+                        </tr>
+                        {/* row 8 */}
+                        <tr>
+                            <td>Dashboards, Informes y Alertas</td>
+                            <td><TiInfinity /></td>
+                            <td><TiInfinity /></td>
+                        </tr>
+                        {/* row 9 */}
+                        <tr>
+                            <td>Canales Disponibles</td>
+                            <td>WhatsApp, Email, Telegram, SMS y Slack	</td>
+                            <td>WhatsApp, Email, Telegram, SMS y Slack	</td>
+                        </tr>
+                        {/* row 10 */}
+                        <tr>
+                            <td>Previsiones</td>
+                            <td><RxCross2 /></td>
+                            <td><IoMdCheckmark /></td>
+                        </tr>
+                        {/* row 11 */}
+                        <tr>
+                            <td>Conciliación de Facturas</td>
+                            <td><RxCross2 /></td>
+                            <td><IoMdCheckmark /></td>
+                        </tr>
+                        {/* row 12 */}
+                        <tr>
+                            <td>Gestión de Contactos</td>
+                            <td><RxCross2 /></td>
+                            <td><IoMdCheckmark /></td>
+                        </tr>
+                        {/* row 13 */}
+                        <tr>
+                            <td>Facturas Conciliadas / Trimestre</td>
+                            <td><RxCross2 /></td>
+                            <td>1000</td>
+                        </tr>
+                        {/* row 14 */}
+                        <tr>
+                            <td>Usuarios</td>
+                            <td>2</td>
+                            <td>10</td>
+                        </tr>
+                        {/* row 15 */}
+                        <tr>
+                            <td>Espacios de Trabajo</td>
+                            <td>1</td>
+                            <td>3</td>
+                        </tr>
+                        {/* row 16 */}
+                        <tr>
+                            <td>Account Manager</td>
+                            <td><RxCross2 /></td>
+                            <td><IoMdCheckmark /></td>
+                        </tr>
+                        {/* row 17 */}
+                        <tr>
+                            <td>Puesto en marcha asistido</td>
+                            <td>Sí, con el plan anual</td>
+                            <td><IoMdCheckmark /></td>
+                        </tr>
+                        {/* row 18 */}
+                        <tr>
+                            <td>Métodos de Contacto</td>
+                            <td>Chat o Email</td>
+                            <td>Chat o Email, WhatsApp</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
         </div>
     );
 };
 
 export default Empieza;
+
+IoMdCheckmark
+TiInfinity
