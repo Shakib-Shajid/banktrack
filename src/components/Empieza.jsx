@@ -276,128 +276,164 @@ const Empieza = () => {
 
 
             {/* table */}
-            <div className="overflow-x-auto w-[80%] mx-auto pt-5">
+            <div className="overflow-x-auto w-[80%] mx-auto my-20">
                 <table className="table">
                     {/* head */}
                     <thead>
                         <tr className="text-center">
                             <th>Comparación <br />
-                            Todos los detalles comparados</th>
-                            <th>Starter <br />
-                            17€/mes (Pago anual)</th>
+                                Todos los detalles comparados</th>
+                            <th className="text-purple-600 text-center">Starter <br />
+                                17€/mes (Pago anual)</th>
                             <th>Advanced <br />
-                            84€/mes (Pago anual)</th>
+                                84€/mes (Pago anual)</th>
                         </tr>
                     </thead>
                     {/* <p className="bg-gray-300">Conexiones bancarias</p> */}
                     <tbody>
+                        <tr>
+                            <td className="font-bold bg-gray-300 text-gray-400 text-[10px] uppercase">Conexiones Bancarias</td>
+                            <td className="bg-gray-300 text-gray-400 text-[10px]"></td>
+                            <td className="bg-gray-300 text-gray-400 text-[10px]"></td>
+                        </tr>
                         {/* row 1 */}
                         <tr>
                             <td>Bancos sincronizados</td>
-                            <td>10</td>
-                            <td>25</td>
+                            <td className="text-center">10</td>
+                            <td className="text-center">25</td>
                         </tr>
                         {/* row 2 */}
                         <tr>
                             <td>Uso empresarial</td>
-                            <td><IoMdCheckmark /></td>
-                            <td><IoMdCheckmark /></td>
+                            <td><IoMdCheckmark className="mx-auto font-bold text-xl" /></td>
+                            <td><IoMdCheckmark className="mx-auto font-bold text-xl" /></td>
+                        </tr>
+                        <tr>
+                            <td className="font-bold bg-gray-300 text-gray-400 text-[10px] uppercase">Categorización</td>
+                            <td className="bg-gray-300 text-gray-400 text-[10px]"></td>
+                            <td className="bg-gray-300 text-gray-400 text-[10px]"></td>
                         </tr>
                         {/* row 3 */}
                         <tr>
                             <td>Sugerencias de categorización</td>
-                            <td><IoMdCheckmark /></td>
-                            <td><IoMdCheckmark /></td>
+                            <td><IoMdCheckmark className="mx-auto font-bold text-xl" /></td>
+                            <td><IoMdCheckmark className="mx-auto font-bold text-xl" /></td>
                         </tr>
                         {/* row 4 */}
                         <tr>
                             <td>Reglas automáticas</td>
-                            <td><TiInfinity/></td>
-                            <td><TiInfinity/></td>
+                            <td><TiInfinity className="mx-auto font-bold text-xl" /></td>
+                            <td><TiInfinity className="mx-auto font-bold text-xl" /></td>
+                        </tr>
+                       
+                        <tr>
+                            <td className="font-bold bg-gray-300 text-gray-400 text-[10px] uppercase">Buscador, exportación e importación</td>
+                            <td className="bg-gray-300 text-gray-400 text-[10px]"></td>
+                            <td className="bg-gray-300 text-gray-400 text-[10px]"></td>
                         </tr>
                         {/* row 5 */}
                         <tr>
                             <td>Historial de transacciones</td>
-                            <td><TiInfinity/></td>
-                            <td><TiInfinity/></td>
+                            <td><TiInfinity className="mx-auto font-bold text-xl" /></td>
+                            <td><TiInfinity className="mx-auto font-bold text-xl" /></td>
                         </tr>
                         {/* row 6 */}
                         <tr>
                             <td>Exportación de transacciones</td>
-                            <td>PDF, CSV y JSON</td>
-                            <td>PDF, CSV y JSON</td>
+                            <td className="text-center">PDF, CSV y JSON</td>
+                            <td className="text-center">PDF, CSV y JSON</td>
                         </tr>
                         {/* row 7 */}
                         <tr>
                             <td>Importación de transacciones</td>
-                            <td>Autoservicio</td>
-                            <td>Autoservicio o OCR asistido</td>
+                            <td className="text-center">Autoservicio</td>
+                            <td className="text-center">Autoservicio o OCR asistido</td>
+                        </tr>
+                        <tr>
+                            <td className="font-bold bg-gray-300 text-gray-400 text-[10px] uppercase">Control de tesorería</td>
+                            <td className="bg-gray-300 text-gray-400 text-[10px]"></td>
+                            <td className="bg-gray-300 text-gray-400 text-[10px]"></td>
                         </tr>
                         {/* row 8 */}
                         <tr>
                             <td>Dashboards, Informes y Alertas</td>
-                            <td><TiInfinity /></td>
-                            <td><TiInfinity /></td>
+                            <td><TiInfinity className="mx-auto font-bold text-xl" /></td>
+                            <td><TiInfinity className="mx-auto font-bold text-xl" /></td>
                         </tr>
                         {/* row 9 */}
                         <tr>
                             <td>Canales Disponibles</td>
-                            <td>WhatsApp, Email, Telegram, SMS y Slack	</td>
-                            <td>WhatsApp, Email, Telegram, SMS y Slack	</td>
+                            <td className="text-center">WhatsApp, Email, Telegram, SMS y Slack	</td>
+                            <td className="text-center">WhatsApp, Email, Telegram, SMS y Slack	</td>
                         </tr>
                         {/* row 10 */}
                         <tr>
                             <td>Previsiones</td>
-                            <td><RxCross2 /></td>
-                            <td><IoMdCheckmark /></td>
+                            <td><RxCross2 className="mx-auto font-bold text-xl text-gray-300" /></td>
+                            <td><IoMdCheckmark className="mx-auto font-bold text-xl" /></td>
+                        </tr>
+                        <tr>
+                            <td className="font-bold bg-gray-300 text-gray-400 text-[10px] uppercase">Facturación y conciliación</td>
+                            <td className="bg-gray-300 text-gray-400 text-[10px]"></td>
+                            <td className="bg-gray-300 text-gray-400 text-[10px]"></td>
                         </tr>
                         {/* row 11 */}
                         <tr>
                             <td>Conciliación de Facturas</td>
-                            <td><RxCross2 /></td>
-                            <td><IoMdCheckmark /></td>
+                            <td><RxCross2 className="mx-auto font-bold text-xl text-gray-300" /></td>
+                            <td><IoMdCheckmark className="mx-auto font-bold text-xl" /></td>
                         </tr>
                         {/* row 12 */}
                         <tr>
                             <td>Gestión de Contactos</td>
-                            <td><RxCross2 /></td>
-                            <td><IoMdCheckmark /></td>
+                            <td><RxCross2 className="mx-auto font-bold text-xl text-gray-300" /></td>
+                            <td><IoMdCheckmark className="mx-auto font-bold text-xl" /></td>
                         </tr>
                         {/* row 13 */}
                         <tr>
                             <td>Facturas Conciliadas / Trimestre</td>
-                            <td><RxCross2 /></td>
-                            <td>1000</td>
+                            <td><RxCross2 className="mx-auto font-bold text-xl text-gray-300" /></td>
+                            <td className="text-center">1000</td>
+                        </tr>
+                        <tr>
+                            <td className="font-bold bg-gray-300 text-gray-400 text-[10px] uppercase">Multi-empresa / Multi-entidad</td>
+                            <td className="bg-gray-300 text-gray-400 text-[10px]"></td>
+                            <td className="bg-gray-300 text-gray-400 text-[10px]"></td>
                         </tr>
                         {/* row 14 */}
                         <tr>
                             <td>Usuarios</td>
-                            <td>2</td>
-                            <td>10</td>
+                            <td className="text-center">2</td>
+                            <td className="text-center">10</td>
                         </tr>
                         {/* row 15 */}
                         <tr>
                             <td>Espacios de Trabajo</td>
-                            <td>1</td>
-                            <td>3</td>
+                            <td className="text-center">1</td>
+                            <td className="text-center">3</td>
+                        </tr>
+                        <tr>
+                            <td className="font-bold bg-gray-300 text-gray-400 text-[10px] uppercase">Soporte</td>
+                            <td className="bg-gray-300 text-gray-400 text-[10px]"></td>
+                            <td className="bg-gray-300 text-gray-400 text-[10px]"></td>
                         </tr>
                         {/* row 16 */}
                         <tr>
                             <td>Account Manager</td>
-                            <td><RxCross2 /></td>
-                            <td><IoMdCheckmark /></td>
+                            <td><RxCross2 className="mx-auto font-bold text-xl text-gray-300" /></td>
+                            <td><IoMdCheckmark className="mx-auto font-bold text-xl" /></td>
                         </tr>
                         {/* row 17 */}
                         <tr>
                             <td>Puesto en marcha asistido</td>
-                            <td>Sí, con el plan anual</td>
-                            <td><IoMdCheckmark /></td>
+                            <td className="text-center">Sí, con el plan anual</td>
+                            <td><IoMdCheckmark className="mx-auto font-bold text-xl" /></td>
                         </tr>
                         {/* row 18 */}
                         <tr>
                             <td>Métodos de Contacto</td>
-                            <td>Chat o Email</td>
-                            <td>Chat o Email, WhatsApp</td>
+                            <td className="text-center">Chat o Email</td>
+                            <td className="text-center">Chat o Email, WhatsApp</td>
                         </tr>
                     </tbody>
                 </table>
