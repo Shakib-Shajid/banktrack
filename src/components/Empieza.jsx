@@ -276,17 +276,21 @@ const Empieza = () => {
 
 
             {/* table */}
-            <div className="overflow-x-auto w-[80%] mx-auto my-20">
-                <table className="table rounded-xl bg-white">
+            <div className="overflow-x-auto rounded-xl w-[80%] mx-auto my-20">
+                <table className="table bg-white">
                     {/* head */}
                     <thead>
-                        <tr className="text-center">
-                            <th>Comparación <br />
-                                Todos los detalles comparados</th>
-                            <th className="text-purple-600 text-center">Starter <br />
-                                17€/mes (Pago anual)</th>
-                            <th>Advanced <br />
-                                84€/mes (Pago anual)</th>
+                        <tr className="text-center text-xl">
+                            <th className="text-black py-5 bg-none">
+                                Comparación <br />
+                                <span className="text-sm text-[#7C7C7C]">Todos los detalles comparados</span>
+                            </th>
+                            <th className="text-purple-600 text-center py-5">Starter <br />
+                                <span className="text-sm text-[#7C7C7C]">17€/mes (Pago anual)</span>
+                            </th>
+                            <th className="text-black py-5">Advanced <br />
+                                <span className="text-sm text-[#7C7C7C]"> 84€/mes (Pago anual)</span>
+                            </th>
                         </tr>
                     </thead>
                     {/* <p className="bg-gray-300">Conexiones bancarias</p> */}
@@ -325,7 +329,7 @@ const Empieza = () => {
                             <td className="border-2"><TiInfinity className="mx-auto font-bold text-xl" /></td>
                             <td className="border-2"><TiInfinity className="mx-auto font-bold text-xl" /></td>
                         </tr>
-                       
+
                         <tr>
                             <td className="font-bold bg-gray-300 text-gray-400 text-[10px] uppercase">Buscador, exportación e importación</td>
                             <td className="bg-gray-300 text-gray-400 text-[10px]"></td>
@@ -443,6 +447,3 @@ const Empieza = () => {
 };
 
 export default Empieza;
-
-IoMdCheckmark
-TiInfinity

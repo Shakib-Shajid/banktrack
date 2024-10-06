@@ -1,6 +1,9 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
+import { IoMdCheckmark } from 'react-icons/io';
+import { RxCross2 } from 'react-icons/rx';
+import { TiInfinity } from 'react-icons/ti';
 
 const Personal = () => {
     return (
@@ -234,6 +237,172 @@ const Personal = () => {
                 </div>
 
 
+            </div>
+
+            {/* table */}
+            <div className="overflow-x-auto rounded-xl w-[80%] mx-auto my-20">
+                <table className="table bg-white">
+                    {/* head */}
+                    <thead>
+                        <tr className="text-center text-xl">
+                            <th className="text-black py-5 bg-none">
+                                Comparación <br />
+                                <span className="text-sm text-[#7C7C7C]">Todos los detalles comparados</span>
+                            </th>
+                            <th className="text-gray-400 text-center py-5">Free</th>
+                            <th className="text-orange-500 py-5">Personal <br />
+                                <span className="text-sm text-[#7C7C7C]"> 5€/mes (Pago anual)</span>
+                            </th>
+                        </tr>
+                    </thead>
+                    {/* <p className="bg-gray-300">Conexiones bancarias</p> */}
+                    <tbody>
+                        <tr>
+                            <td className="font-bold bg-gray-300 text-gray-400 text-[10px] uppercase">Conexiones Bancarias</td>
+                            <td className="bg-gray-300 text-gray-400 text-[10px]"></td>
+                            <td className="bg-gray-300 text-gray-400 text-[10px]"></td>
+                        </tr>
+                        {/* row 1 */}
+                        <tr className="border-2">
+                            <td className="border-2 font-bold">Bancos sincronizados</td>
+                            <td className="text-center border-2">1</td>
+                            <td className="text-center border-2">5</td>
+                        </tr>
+                        {/* row 2 */}
+                        <tr className="border-2">
+                            <td className="border-2 font-bold">Uso empresarial</td>
+                            <td className="border-2"><RxCross2 className="mx-auto font-bold text-xl text-gray-300" /></td>
+                            <td className="border-2"><RxCross2 className="mx-auto font-bold text-xl text-gray-300" /></td>
+                        </tr>
+                        <tr>
+                            <td className="font-bold bg-gray-300 text-gray-400 text-[10px] uppercase">Categorización</td>
+                            <td className="bg-gray-300 text-gray-400 text-[10px]"></td>
+                            <td className="bg-gray-300 text-gray-400 text-[10px]"></td>
+                        </tr>
+                        {/* row 3 */}
+                        <tr className="border-2">
+                            <td className="border-2 font-bold">Sugerencias de categorización</td>
+                            <td className="border-2"><IoMdCheckmark className="mx-auto font-bold text-xl" /></td>
+                            <td className="border-2"><IoMdCheckmark className="mx-auto font-bold text-xl" /></td>
+                        </tr>
+                        {/* row 4 */}
+                        <tr className="border-2">
+                            <td className="border-2 font-bold">Reglas automáticas</td>
+                            <td className="border-2"><RxCross2 className="mx-auto font-bold text-xl text-gray-300" /></td>
+                            <td className="border-2"><TiInfinity className="mx-auto font-bold text-xl" /></td>
+                        </tr>
+
+                        <tr>
+                            <td className="font-bold bg-gray-300 text-gray-400 text-[10px] uppercase">Buscador, exportación e importación</td>
+                            <td className="bg-gray-300 text-gray-400 text-[10px]"></td>
+                            <td className="bg-gray-300 text-gray-400 text-[10px]"></td>
+                        </tr>
+                        {/* row 5 */}
+                        <tr className="border-2">
+                            <td className="border-2 font-bold">Historial de transacciones</td>
+                            <td className="border-2">6 meses</td>
+                            <td className="border-2"><TiInfinity className="mx-auto font-bold text-xl" /></td>
+                        </tr>
+                        {/* row 6 */}
+                        <tr className="border-2">
+                            <td className="border-2 font-bold">Exportación de transacciones</td>
+                            <td className="text-center border-2">PDF</td>
+                            <td className="text-center border-2">PDF, CSV y JSON</td>
+                        </tr>
+                        {/* row 7 */}
+                        <tr className="border-2">
+                            <td className="border-2 font-bold">Importación de transacciones</td>
+                            <td className="text-center border-2">Autoservicio</td>
+                            <td className="text-center border-2">Autoservicio</td>
+                        </tr>
+                        <tr>
+                            <td className="font-bold bg-gray-300 text-gray-400 text-[10px] uppercase">Control de tesorería</td>
+                            <td className="bg-gray-300 text-gray-400 text-[10px]"></td>
+                            <td className="bg-gray-300 text-gray-400 text-[10px]"></td>
+                        </tr>
+                        {/* row 8 */}
+                        <tr className="border-2">
+                            <td className="border-2 font-bold">Dashboards, Informes y Alertas</td>
+                            <td className="border-2"><TiInfinity className="mx-auto font-bold text-xl" /></td>
+                            <td className="border-2"><TiInfinity className="mx-auto font-bold text-xl" /></td>
+                        </tr>
+                        {/* row 9 */}
+                        <tr className="border-2">
+                            <td className="border-2 font-bold">Canales Disponibles</td>
+                            <td className="text-center border-2">Email y Telegram</td>
+                            <td className="text-center border-2">WhatsApp, Email, Telegram y SMS</td>
+                        </tr>
+                        {/* row 10 */}
+                        <tr className="border-2">
+                            <td className="border-2 font-bold">Previsiones</td>
+                            <td className="border-2"><RxCross2 className="mx-auto font-bold text-xl text-gray-300" /></td>
+                            <td className="border-2"><IoMdCheckmark className="mx-auto font-bold text-xl" /></td>
+                        </tr>
+                        <tr>
+                            <td className="font-bold bg-gray-300 text-gray-400 text-[10px] uppercase">Facturación y conciliación</td>
+                            <td className="bg-gray-300 text-gray-400 text-[10px]"></td>
+                            <td className="bg-gray-300 text-gray-400 text-[10px]"></td>
+                        </tr>
+                        {/* row 11 */}
+                        <tr className="border-2">
+                            <td className="border-2 font-bold">Conciliación de Facturas</td>
+                            <td className="border-2"><RxCross2 className="mx-auto font-bold text-xl text-gray-300" /></td>
+                            <td className="border-2"><RxCross2 className="mx-auto font-bold text-xl text-gray-300" /></td>
+                        </tr>
+                        {/* row 12 */}
+                        <tr className="border-2">
+                            <td className="border-2 font-bold">Gestión de Contactos</td>
+                            <td className="border-2"><RxCross2 className="mx-auto font-bold text-xl text-gray-300" /></td>
+                            <td className="border-2"><RxCross2 className="mx-auto font-bold text-xl text-gray-300" /></td>
+                        </tr>
+                        {/* row 13 */}
+                        <tr className="border-2">
+                            <td className="border-2 font-bold">Facturas Conciliadas / Trimestre</td>
+                            <td className="border-2"><RxCross2 className="mx-auto font-bold text-xl text-gray-300" /></td>
+                            <td className="text-center"><RxCross2 className="mx-auto font-bold text-xl text-gray-300" /></td>
+                        </tr>
+                        <tr>
+                            <td className="font-bold bg-gray-300 text-gray-400 text-[10px] uppercase">Multi-empresa / Multi-entidad</td>
+                            <td className="bg-gray-300 text-gray-400 text-[10px]"></td>
+                            <td className="bg-gray-300 text-gray-400 text-[10px]"></td>
+                        </tr>
+                        {/* row 14 */}
+                        <tr className="border-2">
+                            <td className="border-2 font-bold">Usuarios</td>
+                            <td className="text-center border-2">1</td>
+                            <td className="text-center border-2">2</td>
+                        </tr>
+                        {/* row 15 */}
+                        <tr className="border-2">
+                            <td className="border-2 font-bold">Espacios de Trabajo</td>
+                            <td className="text-center border-2">1</td>
+                            <td className="text-center border-2">1</td>
+                        </tr>
+                        <tr>
+                            <td className="font-bold bg-gray-300 text-gray-400 text-[10px] uppercase">Soporte</td>
+                            <td className="bg-gray-300 text-gray-400 text-[10px]"></td>
+                            <td className="bg-gray-300 text-gray-400 text-[10px]"></td>
+                        </tr>
+                        {/* row 16 */}
+                        <tr className="border-2">
+                            <td className="border-2 font-bold">Account Manager</td>
+                            <td className="border-2"><RxCross2 className="mx-auto font-bold text-xl text-gray-300" /></td>
+                            <td className="border-2"><RxCross2 className="mx-auto font-bold text-xl text-gray-300" /></td>
+                        </tr>
+                        {/* row 17 */}
+                        <tr className="border-2">
+                            <td className="border-2 font-bold">Puesto en marcha asistido</td>
+                            <td className="text-center"><RxCross2 className="mx-auto font-bold text-xl text-gray-300" /></td>
+                            <td className="border-2"><RxCross2 className="mx-auto font-bold text-xl text-gray-300" /></td>
+                        </tr>
+                        {/* row 18 */}
+                        <tr className="border-2">
+                            <td className="border-2 font-bold">Métodos de Contacto</td>
+                            <td className="text-center border-2">Email</td>
+                            <td className="text-center border-2">Chat o Email, WhatsApp</td>
+                        </tr>
+                    </tbody>
+                </table>
             </div>
         </div>
     );
