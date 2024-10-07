@@ -17,7 +17,8 @@ const Banner = () => {
             <div className="hero h-[900px] md:h-[800px] bg-[#FDFAF5]">
                 <div className="hero-content text-center -mt-16 md:-mt-36">
                     <div className="max-w-3xl">
-                        <h1 className="text-4xl md:text-6xl font-bold">
+                        {/* <h1 className="text-4xl md:text-6xl font-bold"> */}
+                        <h1 className="font-bold text-4xl md:text-[64px] leading-[60px] text-[#222222] font-sans">
                             El software más fácil para controlar tu tesorería
                         </h1>
                         <p className="py-6 text-2xl max-w-2xl mx-auto">
