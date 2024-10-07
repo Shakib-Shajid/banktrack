@@ -21,7 +21,7 @@ const Banner = () => {
                         <h1 className="font-bold text-4xl md:text-[64px] leading-[60px] text-[#222222] font-sans">
                             El software más fácil para controlar tu tesorería
                         </h1>
-                        <p className="py-6 text-2xl max-w-2xl mx-auto">
+                        <p className="py-6 text-2xl max-w-2xl mx-auto ">
                             Visualiza todos tus gastos e ingresos a tiempo real, categorizados y desde una única plataforma
                         </p>
                         <div className='flex justify-center gap-3 flex-col md:flex-row'>

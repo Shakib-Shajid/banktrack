@@ -38,13 +38,15 @@ const Navbar = () => {
                         <div className='flex gap-3'>
                             <div>
                                 <li>
-                                    <div className='text-sm flex gap-4'>
-                                        <Image src="/who_1_2.png" width="70" height="70" alt="" />
-                                        <div>
-                                            <h2>Dashboards</h2>
-                                            <p className='text-[#787474]'>La vista de datos bancarios que siempre quisiste.</p>
+                                    <Link href="/dashboards">
+                                        <div className='text-sm flex gap-4'>
+                                            <Image src="/who_1_2.png" width="70" height="70" alt="" />
+                                            <div>
+                                                <h2>Dashboards</h2>
+                                                <p className='text-[#787474]'>La vista de datos bancarios que siempre quisiste.</p>
+                                            </div>
                                         </div>
-                                    </div>
+                                    </Link>
                                 </li>
 
 
@@ -324,13 +326,15 @@ const Navbar = () => {
                                             <input type="checkbox" name="my-accordion-2" />
                                             <div className="collapse-title text-2xl font-medium">Funcionalidades</div>
                                             <div className="collapse-content ">
-                                                <div className='mt-5 text-base flex gap-4'>
-                                                    <Image src="/who_1_2.png" width="80" height="80" alt="" />
-                                                    <div>
-                                                        <h2>Dashboards</h2>
-                                                        <p className='text-[#787474]'>La vista de datos bancarios que siempre quisiste.</p>
+                                                <Link href="/dashboards">
+                                                    <div className='mt-5 text-base flex gap-4'>
+                                                        <Image src="/who_1_2.png" width="80" height="80" alt="" />
+                                                        <div>
+                                                            <h2>Dashboards</h2>
+                                                            <p className='text-[#787474]'>La vista de datos bancarios que siempre quisiste.</p>
+                                                        </div>
                                                     </div>
-                                                </div>
+                                                </Link>
                                                 <div className='mt-5 text-base flex gap-4'>
                                                     <Image src="/who_1_3.png" width="80" height="80" alt="" />
                                                     <div>
