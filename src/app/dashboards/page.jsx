@@ -14,9 +14,9 @@ const page = () => {
     }, []);
 
     return (
-        <div className="bg-[#FDFAF5] py-28 md:py-40">
+        <div>
 
-            <div className='w-full flex flex-col gap-20 items-center lg:flex-row '>
+            <div className='w-full flex flex-col gap-20 items-center lg:flex-row bg-[#FDFAF5] py-24'>
                 <div className='w-[80%] lg:ml-32 space-y-3'>
                     <div className=''>
                         <h3 className='text-3xl md:text-6xl font-bold'>La vista de datos bancarios que siempre quisiste</h3>
@@ -25,14 +25,7 @@ const page = () => {
                             Consulta y analiza tus datos bancarios en tiempo real, de la forma más intuitiva.
                         </p>
                     </div>
-                    <div className='text-[#828080] space-y-1 w-full'>
 
-                        {/* <p><IoMdCheckmark className='inline-block mr-1' />Control absoluto de lo cobrado y pagado</p>
-                    <p><IoMdCheckmark className='inline-block mr-1' />Conciliación automática de tus facturas</p>
-                    <p><IoMdCheckmark className='inline-block mr-1' />Digitalización de todas tus facturas con IA</p>
-                    <p><IoMdCheckmark className='inline-block mr-1' />Manda tus facturas a Banktrack por WhatsApp</p>
-                    <p><IoMdCheckmark className='inline-block mr-1' />Comparte las facturas con tu gestor con 1 clic</p> */}
-                    </div>
                     <div className='flex gap-3 flex-col md:flex-row'>
                         <Link href="/registrarse">
                             <button className="btn border-none bg-[#4021C8] text-white rounded-full btn-lg px-10 w-full">
@@ -156,6 +149,41 @@ const page = () => {
                     </div>
                 </div>
             </section>
+
+            <div className='w-full max-w-7xl mx-auto flex flex-col gap-10 lg:gap-72 items-center lg:flex-row'>
+                <div className='w-[80%] md:w-[70%] lg:ml-40 space-y-3'>
+                    <div className='lg:mt-10'>
+                        {/* <h3 className='text-xl font-bold text-[#4021C8] uppercase'>Cobros y Pagos</h3> */}
+                        <p className='text-4xl font-bold leading-tight'>Conectado con todos tus bancos</p>
+                    </div>
+
+                    <div className='text-[#828080] w-full text-xl pb-5'>
+                        <p>Ya no necesitas descargar extractos bancarios, ni copiar y pegar tus movimientos en Excel.</p>
+                    </div>
+
+                    <Link href="/registrarse">
+                        <button className="btn border-none bg-[#4021C8] text-white rounded-full btn-lg px-6 md:px-10">
+                            <div>Empieza gratis</div>
+                        </button>
+                    </Link>
+                </div>
+                <Image src="/das_con.png" width="500" height="300" alt="" className='w-[90%] md:w-[80%] lg:w-full mx-auto' />
+
+            </div>
+
+            <div className='w-full flex flex-col gap-10 lg:gap-40 justify-center items-center lg:flex-row-reverse'>
+                <div className='w-[80%] mx-auto  lg:w-full space-y-3 mt-5 md:mt-10'>
+                    <h3 className='text-4xl font-bold leading-tight'>Infinitamente flexible</h3>
+                    <p className='text-[#828080] md:w-[70%] lg:w-[60%] text-xl pb-5'>Filtra por diferentes periodos, movimientos, y productos financieros para obtener tu vista específica.</p>
+                    <Link href="/registrarse">
+                        <button className="btn border-none bg-[#4021C8] text-white rounded-full btn-lg px-6 md:px-10 ">
+                            <div>Empieza gratis</div>
+                        </button>
+                    </Link>
+                </div>
+                <Image src="/das_time.png" width="1000" height="1000" alt="" className='h-[300px] md:h-[700px] lg:h-screen w-[90%] md:w-full' />
+
+            </div>
 
         </div>
     );
