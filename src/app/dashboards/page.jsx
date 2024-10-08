@@ -4,6 +4,7 @@ import Link from 'next/link';
 import { PopupButton } from 'react-calendly';
 import { CiCalendar } from 'react-icons/ci';
 import React, { useEffect, useState } from 'react';
+import Try from '@/components/Try';
 
 const page = () => {
     const [isClient, setIsClient] = useState(false);
@@ -205,6 +206,8 @@ const page = () => {
                 <Image src="/das_cus.png" width="500" height="500" alt="" className='w-[90%] md:w-[80%] lg:w-full mx-auto' />
 
             </section>
+
+            <Try />
 
         </div>
     );
