@@ -326,7 +326,7 @@ const Navbar = () => {
                                             <input type="checkbox" name="my-accordion-2" />
                                             <div className="collapse-title text-2xl font-medium">Funcionalidades</div>
                                             <div className="collapse-content ">
-                                                <Link href="/dashboards">
+                                                <Link href="/dashboards" onClick={closeModal}>
                                                     <div className='mt-5 text-base flex gap-4'>
                                                         <Image src="/who_1_2.png" width="80" height="80" alt="" />
                                                         <div>

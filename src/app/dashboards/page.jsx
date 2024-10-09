@@ -1,18 +1,12 @@
 "use client";
 import Image from 'next/image';
 import Link from 'next/link';
-import { PopupButton } from 'react-calendly';
-import { CiCalendar } from 'react-icons/ci';
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import Try from '@/components/Try';
+import PubDash from '@/components/PubDash';
 
 const page = () => {
-    const [isClient, setIsClient] = useState(false);
 
-    // Check if the component is mounted on the client side
-    useEffect(() => {
-        setIsClient(true);
-    }, []);
 
     return (
         <div>
@@ -27,27 +21,7 @@ const page = () => {
                         </p>
                     </div>
 
-                    <div className='flex gap-3 flex-col md:flex-row'>
-                        <Link href="/registrarse">
-                            <button className="btn border-none bg-[#4021C8] text-white rounded-full btn-lg px-10 w-full">
-                                <div>Empieza gratis</div>
-                            </button>
-                        </Link>
-                        {/* Calendly Popup Button */}
-                        {isClient && (
-                            <PopupButton
-                                url="https://calendly.com/testingdeveloper/30min"
-                                rootElement={document.getElementById('calendly-root')}
-                                text={
-                                    <div className='flex gap-1 justify-center items-center'>
-                                        <CiCalendar className='text-[#4021C8] text-3xl w-8' />
-                                        Agendar demo
-                                    </div>
-                                }
-                                className="btn border-none rounded-full btn-lg px-10 bg-white text-[#4021C8]"
-                            />
-                        )}
-                    </div>
+                    <PubDash />
 
                     <div className='flex justify-center pt-5 items-center gap-2 flex-col lg:flex-row'>
                         <div className='flex items-center'>
@@ -186,11 +160,11 @@ const page = () => {
 
             </section>
 
-            <section className='w-[80%] lg:w-full flex flex-col gap-10 lg:gap-64 items-center lg:flex-row my-10'>
-                <div className='w-[80%] md:w-[80%] lg:w-[80%] lg:ml-56 space-y-3'>
+            <section className='w-full lg:w-full flex flex-col gap-10 lg:gap-64 items-center lg:flex-row my-10'>
+                <div className='w-[80%] mx-auto md:w-[80%] lg:w-[80%] lg:ml-56 space-y-3'>
                     <div className='lg:mt-10'>
                         {/* <h3 className='text-xl font-bold text-[#4021C8] uppercase'>Cobros y Pagos</h3> */}
-                        <p className='text-4xl font-bold leading-tight'>Altamente personalizable</p>
+                        <p className='text-4xl font-bold leading-tight'>Altamente personalizable</p> 
                     </div>
 
                     <div className='text-[#828080] w-full text-xl pb-5'>
