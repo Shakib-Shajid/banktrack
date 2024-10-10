@@ -119,7 +119,7 @@ const Navbar = () => {
             <li>
                 <div className="dropdown dropdown-hover">
                     <div tabIndex={0} role="button" className="group">
-                        Recursos
+                        ¿Para quién es?
                         <IoIosArrowDown className="inline-block ml-2 group-hover:rotate-180 transform-translate duration-200 ease-in" />
                     </div>
                     <ul tabIndex={0} className="dropdown-content menu bg-base-100 rounded-box z-[1] mt-96 w-[900%] p-2 py-10 shadow">
@@ -236,7 +236,7 @@ const Navbar = () => {
             <li>
                 <div className="dropdown dropdown-hover">
                     <div tabIndex={0} role="button" className="group">
-                        Funcionalidades
+                        Recursos
                         <IoIosArrowDown className="inline-block ml-2 group-hover:rotate-180 transform-translate duration-200 ease-in" />
                     </div>
                     <ul tabIndex={0} className="dropdown-content menu bg-base-100 rounded-box z-[1] mt-40 w-[400%] p-2 shadow py-5">
