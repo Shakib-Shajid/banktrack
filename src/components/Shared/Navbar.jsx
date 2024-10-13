@@ -51,13 +51,15 @@ const Navbar = () => {
 
 
                                 <li>
-                                    <div className='text-sm flex gap-4'>
-                                        <Image src="/who_1_3.png" width="70" height="70" alt="" />
-                                        <div>
-                                            <h2>Buscador</h2>
-                                            <p className='text-[#787474]'>El motor de busqueda para tus cuentas bancarias.</p>
+                                    <Link href="/buscador">
+                                        <div className='text-sm flex gap-4'>
+                                            <Image src="/who_1_3.png" width="70" height="70" alt="" />
+                                            <div>
+                                                <h2>Buscador</h2>
+                                                <p className='text-[#787474]'>El motor de busqueda para tus cuentas bancarias.</p>
+                                            </div>
                                         </div>
-                                    </div>
+                                    </Link>
                                 </li>
 
 
@@ -122,7 +124,7 @@ const Navbar = () => {
                         ¿Para quién es?
                         <IoIosArrowDown className="inline-block ml-2 group-hover:rotate-180 transform-translate duration-200 ease-in" />
                     </div>
-                    <ul tabIndex={0} className="dropdown-content menu bg-base-100 rounded-box z-[1] mt-96 w-[900%] p-2 py-10 shadow">
+                    <ul tabIndex={0} className="dropdown-content menu bg-base-100 rounded-box z-[1] mt-[26rem] w-[650%] p-2 py-10 shadow">
 
 
                         <div className='flex gap-3'>
@@ -239,7 +241,7 @@ const Navbar = () => {
                         Recursos
                         <IoIosArrowDown className="inline-block ml-2 group-hover:rotate-180 transform-translate duration-200 ease-in" />
                     </div>
-                    <ul tabIndex={0} className="dropdown-content menu bg-base-100 rounded-box z-[1] mt-40 w-[400%] p-2 shadow py-5">
+                    <ul tabIndex={0} className="dropdown-content menu bg-base-100 rounded-box z-[1] mt-40 w-[550%] p-2 shadow py-5">
                         <div className='flex gap-5'>
                             <li><Link href="/video-academy">
                                 <div className='text-sm flex gap-4'>
