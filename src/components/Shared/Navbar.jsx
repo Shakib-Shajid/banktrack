@@ -64,13 +64,15 @@ const Navbar = () => {
 
 
                                 <li>
-                                    <div className='text-sm flex gap-4'>
-                                        <Image src="/who_1_7.png" width="70" height="70" alt="" />
-                                        <div>
-                                            <h2>Alertas</h2>
-                                            <p className='text-[#787474]'>Entérate cuando pasan cosas raras.</p>
+                                    <Link href="/alertas">
+                                        <div className='text-sm flex gap-4'>
+                                            <Image src="/who_1_7.png" width="70" height="70" alt="" />
+                                            <div>
+                                                <h2>Alertas</h2>
+                                                <p className='text-[#787474]'>Entérate cuando pasan cosas raras.</p>
+                                            </div>
                                         </div>
-                                    </div>
+                                    </Link>
                                 </li>
                             </div>
                             <div>
