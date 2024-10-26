@@ -18,13 +18,13 @@ const Banner = () => {
                 <div className="hero-content text-center -mt-16 md:-mt-36">
                     <div className="max-w-3xl">
                         {/* <h1 className="text-4xl md:text-6xl font-bold"> */}
-                        <h1 className="font-bold text-4xl md:text-[64px] leading-[60px] text-[#222222] font-sans">
+                        <h1 className="font-bold text-4xl md:text-[64px] leading-[60px] text-[#222222] font-sans" data-aos="fade-down">
                             El software más fácil para controlar tu tesorería
                         </h1>
-                        <p className="py-6 text-2xl max-w-2xl mx-auto ">
+                        <p className="py-6 text-2xl max-w-2xl mx-auto " data-aos="fade-down" data-aos-duration="2000">
                             Visualiza todos tus gastos e ingresos a tiempo real, categorizados y desde una única plataforma
                         </p>
-                        <div className='flex justify-center gap-3 flex-col md:flex-row'>
+                        <div className='flex justify-center gap-3 flex-col md:flex-row' data-aos="fade-up">
                             <Link href="/registrarse">
                                 <button className="btn border-none bg-[#4021C8] text-white rounded-full btn-lg px-10 w-full">
                                     <div>Empieza gratis</div>

@@ -4,6 +4,9 @@ import Link from 'next/link';
 import React, { useState, useEffect } from 'react';
 import { IoIosArrowDown } from "react-icons/io";
 
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
 const Navbar = () => {
     const [isScrolled, setIsScrolled] = useState(false);
 
@@ -19,6 +22,10 @@ const Navbar = () => {
         window.addEventListener('scroll', handleScroll);
         return () => window.removeEventListener('scroll', handleScroll);
     }, []);
+
+    useEffect(() => {
+        AOS.init();
+    }, [])
 
     // Function to close modal
     const closeModal = () => {
