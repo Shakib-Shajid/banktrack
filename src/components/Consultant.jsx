@@ -2,7 +2,7 @@ import React from 'react';
 
 const Consultant = () => {
     return (
-        <div className='flex justify-center'>
+        <div className='flex justify-center' data-aos="fade-up">
             <iframe
                 width="1200"
                 height="500"

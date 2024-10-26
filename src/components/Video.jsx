@@ -3,7 +3,7 @@ import React from 'react';
 
 const Video = () => {
     return (
-        <div className='-mt-56 md:-mt-72 mb-10 z-30'>
+        <div className='-mt-56 md:-mt-72 mb-10 z-30' data-aos="zoom-in">
             <div className='text-center flex flex-col lg:flex-row justify-evenly my-5'>
                 <div className='flex items-center gap-2 flex-col lg:flex-row'>
                     <div className='flex items-center'>

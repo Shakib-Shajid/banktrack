@@ -5,7 +5,7 @@ import { IoMdCheckmark } from 'react-icons/io';
 
 const Data = () => {
     return (
-        <div className="bg-[#28243E] h-[480px] lg:h-screen flex justify-center">
+        <div className="bg-[#28243E] h-[480px] lg:h-screen flex justify-center" data-aos="zoom-in">
             <div className='lg:mt-16 hero'>
                 <div>
                     <h3 className='text-xl text-[#776EC1] my-4'>Dashboard financiero</h3>

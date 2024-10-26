@@ -11,7 +11,7 @@ const Who = () => {
     };
 
     return (
-        <div className="text-center w-full my-20" id="soluciones">
+        <div className="text-center w-full my-20" id="soluciones" data-aos="fade-down">
             <div>
                 <h3 className="text-3xl md:text-5xl font-bold">¿Para quién es?</h3>
                 <p className="text-2xl md:text-xl lg:text-2xl w-full md:w-[80%] lg:w-[50%] mx-auto my-10">

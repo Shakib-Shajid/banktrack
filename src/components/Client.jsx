@@ -3,7 +3,7 @@ import React from 'react';
 
 const Client = () => {
     return (
-        <div className='my-20'>
+        <div className='my-20' data-aos="fade-right">
             <h3 className='text-center text-2xl font-bold'>Únete a <span className='bg-[#FFEED4]'>cientos de empresas</span> que ya están usando <br /> Banktrack para ahorrar tiempo y potenciar su negocio</h3>
             <div className='lg:flex flex-wrap justify-center hidden lg:gap-14 w-[85%] mx-auto my-10'>
                 <Image src="/icon_1.png" width="250" height="250" alt="" className='h-20 w-36' />

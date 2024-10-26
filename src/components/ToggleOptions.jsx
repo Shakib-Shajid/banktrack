@@ -12,7 +12,7 @@ const ToggleOptions = () => {
   };
 
   return (
-    <div className="text-center my-10">
+    <div className="text-center my-10" >
       <div className="flex justify-center items-center gap-4 mb-10">
         {/* Option labels */}
         <span className={`${isEmpresa ? "text-[#4021C8] font-bold" : ""}`}>

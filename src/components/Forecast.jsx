@@ -4,7 +4,7 @@ import { IoMdCheckmark } from 'react-icons/io';
 
 const Forecast = () => {
     return (
-        <div className='w-full flex flex-col gap-10 justify-center items-center lg:flex-row-reverse'>
+        <div className='w-full flex flex-col gap-10 justify-center items-center lg:flex-row-reverse' data-aos="fade-right">
             <div className='w-[80%] space-y-3 mt-5 md:mt-10'>
                 <h3 className='text-xl font-bold text-[#4021C8] uppercase'>Previsiones</h3>
                 <p className='text-4xl font-bold leading-tight'>Crea escenarios y <br /> previsiones fiables</p>
