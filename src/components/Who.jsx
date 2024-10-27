@@ -48,12 +48,12 @@ const Who = () => {
             <div className="flex flex-col lg:flex-row gap-10 mt-10 h-full lg:w-[95%] mx-auto">
                 <div className="lg:w-[40%]">
                     {/* Show different images based on the active button */}
-                    {activeButton === 1 && <Image src="/who_1.png" width="500" height="500" alt="Empresas" className="lg:rounded-r-3xl w-full h-[30rem] md:h-[48rem]" data-aos="fade-right"/>}
-                    {activeButton === 2 && <Image src="/who_2.png" width="500" height="500" alt="Autónomos" className="lg:rounded-r-3xl w-full h-[30rem] md:h-[48rem]" data-aos="fade-right"/>}
-                    {activeButton === 3 && <Image src="/who_3.png" width="500" height="500" alt="Particulares" className="lg:rounded-r-3xl w-full h-[30rem] md:h-[48rem]" data-aos="fade-right"/>}
+                    {activeButton === 1 && <Image src="/who_1.png" width="500" height="500" alt="Empresas" className="lg:rounded-r-3xl w-full h-[30rem] md:h-[48rem]" />}
+                    {activeButton === 2 && <Image src="/who_2.png" width="500" height="500" alt="Autónomos" className="lg:rounded-r-3xl w-full h-[30rem] md:h-[48rem]" />}
+                    {activeButton === 3 && <Image src="/who_3.png" width="500" height="500" alt="Particulares" className="lg:rounded-r-3xl w-full h-[30rem] md:h-[48rem]" />}
                 </div>
 
-                <div className="w-[90%] lg:w-[60%] mx-auto h-full grid grid-cols-2 gap-5 mt-8">
+                <div className="w-[90%] lg:w-[60%] mx-auto h-full grid grid-cols-2 gap-5 mt-8" data-aos="fade-right">
                     {/* Show content based on the active button */}
                     {activeButton === 1 && (
                         <>

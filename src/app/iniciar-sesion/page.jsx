@@ -5,7 +5,7 @@ import { FcGoogle } from "react-icons/fc";
 
 const page = () => {
     return (
-        <div className='h-screen'>
+        <div className='h-screen' data-aos="zoom-in">
             <div className='pt-20  flex gap-0 h-screen'>
                 <div className='hidden lg:grid w-[30%] bg-[#4021C8]'>
                     <div className='pl-20 pt-24'>
